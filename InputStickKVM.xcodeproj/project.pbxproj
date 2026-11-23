@@ -1,0 +1,1183 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+ABCDEF123456789012345670 = {isa = PBXFileReference; lastKnownFileType = image.icns; path = App/AppIcon.icns; sourceTree = SOURCE_ROOT;};
+ABCDEF123456789012345671 = {isa = PBXBuildFile; fileRef = ABCDEF123456789012345670;};
+
+/* Begin PBXBuildFile section */
+		026C634DD1267DEFD19B91A5 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Greek/InputStickKeyboardLayoutElGR.m in Sources */ = {isa = PBXBuildFile; fileRef = E43EF7EF872F482FAB071D10 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Greek/InputStickKeyboardLayoutElGR.m */; };
+		0405B93E10F62DE8A252DBD0 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Finnish/InputStickKeyboardLayoutFiFI.m in Sources */ = {isa = PBXBuildFile; fileRef = F90DF4950897EEC41DD5E221 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Finnish/InputStickKeyboardLayoutFiFI.m */; };
+		04E1A645983464452261C2AA /* Vendor/InputStickCore/Database/InputStickDeviceDB.m in Sources */ = {isa = PBXBuildFile; fileRef = 6728BA5D8C516242B2C5D10F /* Vendor/InputStickCore/Database/InputStickDeviceDB.m */; };
+		053B2AFBBBF0EE2E7449AADC /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Czech/InputStickKeyboardLayoutCsCZProgrammers.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB8196848CDAC6EBF384478 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Czech/InputStickKeyboardLayoutCsCZProgrammers.m */; };
+		0984639ED595FEB26BC048FE /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Czech/InputStickKeyboardLayoutCsCZ.m in Sources */ = {isa = PBXBuildFile; fileRef = 14D61717C2F2A414A259CAB1 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Czech/InputStickKeyboardLayoutCsCZ.m */; };
+		0C0D8C265294EB04ACBD9C5C /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/French/InputStickKeyboardLayoutFrCH.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E57B2BDA732C328E6B1149B /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/French/InputStickKeyboardLayoutFrCH.m */; };
+		0D141496E0FAD94DB1E7515E /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Russian/InputStickKeyboardLayoutRuRU.m in Sources */ = {isa = PBXBuildFile; fileRef = 747112A765DC252EC3EA5830 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Russian/InputStickKeyboardLayoutRuRU.m */; };
+		0F2002E6636B3646DBD5196D /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Portuguese/InputStickKeyboardLayoutPtPTMac.m in Sources */ = {isa = PBXBuildFile; fileRef = B083BC65F1FB53C884DC4120 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Portuguese/InputStickKeyboardLayoutPtPTMac.m */; };
+		1483BA3A0254355B1B2B4651 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Swedish/InputStickKeyboardLayoutSvSEMac.m in Sources */ = {isa = PBXBuildFile; fileRef = 597AF3FCE9E4FA81A7C2DB4A /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Swedish/InputStickKeyboardLayoutSvSEMac.m */; };
+		1650E8028631FE6E7FE62D48 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Hebrew/InputStickKeyboardLayoutHeILLinux.m in Sources */ = {isa = PBXBuildFile; fileRef = 0306B654A6ABDBDD9580E40B /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Hebrew/InputStickKeyboardLayoutHeILLinux.m */; };
+		1841299F0675DA4C890FACB8 /* Vendor/InputStickCore/Notifications/NSNotificationCenter+InputStickPacket.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF1AEEB0E9855129AE67BCA /* Vendor/InputStickCore/Notifications/NSNotificationCenter+InputStickPacket.m */; };
+		1B2682D3C2A3C358E3324EF2 /* Vendor/InputStickCore/Utils/InputStickConst.m in Sources */ = {isa = PBXBuildFile; fileRef = B3FA3ABFF181A20A97C918A9 /* Vendor/InputStickCore/Utils/InputStickConst.m */; };
+		1BE366411B043712031B4938 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Japanese/InputStickKeyboardLayoutJpJP.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A27268920FD5C3C41546973 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Japanese/InputStickKeyboardLayoutJpJP.m */; };
+		1F545DF9350DA99DDFF0B9F3 /* Vendor/InputStickCore/HID/Keyboard/InputStickKeyboardKeyModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4395DF579416425A4FF6BF54 /* Vendor/InputStickCore/HID/Keyboard/InputStickKeyboardKeyModel.m */; };
+		1FBA27F0B2A7F65097D86BF3 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/German/InputStickKeyboardLayoutDeCH.m in Sources */ = {isa = PBXBuildFile; fileRef = DC4CD8A59FF1970830878771 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/German/InputStickKeyboardLayoutDeCH.m */; };
+		21993F566A929F4001A2A61A /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Slovak/InputStickKeyboardLayoutSkSKQwertyLinux.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A90405BF6B2BAF1F7A6709 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Slovak/InputStickKeyboardLayoutSkSKQwertyLinux.m */; };
+		226A354AA407A011C59DCE4C /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Spanish/InputStickKeyboardLayoutEsESLinux.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F46BFA9EDCD3E0F6CB45C3A /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Spanish/InputStickKeyboardLayoutEsESLinux.m */; };
+		246C3D8358740A8B1D90EA2B /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Croatian/InputStickKeyboardLayoutHrHRMac.m in Sources */ = {isa = PBXBuildFile; fileRef = 41378E9977331F6E96D2B615 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Croatian/InputStickKeyboardLayoutHrHRMac.m */; };
+		26230C8143ADC49663DD1CF7 /* Vendor/InputStickCore/HID/InputStickHIDTransactionBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2DD92EFD331C3779F2B316 /* Vendor/InputStickCore/HID/InputStickHIDTransactionBuffer.m */; };
+		27E4F564747F2F6AAA7B2CBF /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/English/InputStickKeyboardLayoutEnUSDvorak.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EA85525D8DD5F56E502C211 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/English/InputStickKeyboardLayoutEnUSDvorak.m */; };
+		28CC1B689A05D8D10458622B /* Vendor/InputStickCore/InputStickManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D9266BB193A2D64392F7B382 /* Vendor/InputStickCore/InputStickManager.m */; };
+		28DD143496D9DBA450A7A54F /* Vendor/InputStickCore/Connection/Packet/InputStickRxPacket+FirmwareInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BA6EF45CB280B756901D22E /* Vendor/InputStickCore/Connection/Packet/InputStickRxPacket+FirmwareInfo.m */; };
+		2AD3651305E2271CC5D1764E /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/French/InputStickKeyboardLayoutFrBE.m in Sources */ = {isa = PBXBuildFile; fileRef = C677D16087ADB2BF243D8C9B /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/French/InputStickKeyboardLayoutFrBE.m */; };
+		2E22D2A4D7DADF0FF43C3B1B /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Greek/InputStickKeyboardLayoutElGRLinux.m in Sources */ = {isa = PBXBuildFile; fileRef = D30D96C90DB3D94F18800E00 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Greek/InputStickKeyboardLayoutElGRLinux.m */; };
+		2EC837D4B9DB05DD8EACE95C /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/German/InputStickKeyboardLayoutDeCHLinux.m in Sources */ = {isa = PBXBuildFile; fileRef = DA28820E80CB92F24939F4F2 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/German/InputStickKeyboardLayoutDeCHLinux.m */; };
+		33B5841EE7A3925EF17E4A75 /* Vendor/InputStickCore/Utils/InputStickError.m in Sources */ = {isa = PBXBuildFile; fileRef = 2675509D031167E9914B286B /* Vendor/InputStickCore/Utils/InputStickError.m */; };
+		35DD4963F785E6B9EC3421DA /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/English/InputStickKeyboardLayoutEnUSLinux.m in Sources */ = {isa = PBXBuildFile; fileRef = A7CB68151FD00DAA758A8D43 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/English/InputStickKeyboardLayoutEnUSLinux.m */; };
+		3644CEBEC7DDDB115DE6D7FD /* Vendor/InputStickCore/Database/InputStickDeviceData.m in Sources */ = {isa = PBXBuildFile; fileRef = D8EC396BD9D49071B10DEABB /* Vendor/InputStickCore/Database/InputStickDeviceData.m */; };
+		366B95AF402AF25A4B865FF5 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/French/InputStickKeyboardLayoutFrCHMac.m in Sources */ = {isa = PBXBuildFile; fileRef = 47CE9629179FABA54EFCB6C2 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/French/InputStickKeyboardLayoutFrCHMac.m */; };
+		39A889F1F147EE944DC22A50 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Portuguese/InputStickKeyboardLayoutPtBR.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D2BF5B376366D08902977E1 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Portuguese/InputStickKeyboardLayoutPtBR.m */; };
+		3A2FA7437BF3828EAE1ED288 /* Vendor/InputStickCore/InputStick.strings in Resources */ = {isa = PBXBuildFile; fileRef = 00AA20074BD8271585ADC668 /* Vendor/InputStickCore/InputStick.strings */; };
+		3B209AA6C975CE4DABE7988E /* Vendor/InputStickCore/Utils/InputStickPreferencesHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A901E989D790E25950824F /* Vendor/InputStickCore/Utils/InputStickPreferencesHelper.m */; };
+		449ADC6DDBD88C6EAB2433EB /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Spanish/InputStickKeyboardLayoutEsESMac.m in Sources */ = {isa = PBXBuildFile; fileRef = 685D32340C93F32A7D494640 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Spanish/InputStickKeyboardLayoutEsESMac.m */; };
+		4518E46843813EB295083D08 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Dutch/InputStickKeyboardLayoutNlNLMac.m in Sources */ = {isa = PBXBuildFile; fileRef = 90E9496AFC7B1F179FD8EB8E /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Dutch/InputStickKeyboardLayoutNlNLMac.m */; };
+		47CECCC8F2E46CC5BE452D64 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/German/InputStickKeyboardLayoutDeDE.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BCA9D54C728DEF2FF61690D /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/German/InputStickKeyboardLayoutDeDE.m */; };
+		4A49DEEA8D221B86354D8A11 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Finnish/InputStickKeyboardLayoutFiFIMac.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD6F84A03CEEC1844F315C1 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Finnish/InputStickKeyboardLayoutFiFIMac.m */; };
+		4AB7D76083658CB9FCE5CC8A /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/French/InputStickKeyboardLayoutFrCALinux.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F0BF04A22227B991F794B6D /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/French/InputStickKeyboardLayoutFrCALinux.m */; };
+		4BA09FB4CC0E8D513318D83D /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Finnish/InputStickKeyboardLayoutFiFILinux.m in Sources */ = {isa = PBXBuildFile; fileRef = C871ABE86B27B5D9017927F0 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Finnish/InputStickKeyboardLayoutFiFILinux.m */; };
+		4C8E4EC173EEA8EE13094C04 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Spanish/InputStickKeyboardLayoutEsES.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F8D93CDDFEC1D8481B05B8 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Spanish/InputStickKeyboardLayoutEsES.m */; };
+		4CC12D453DFAA2E4A5C4F781 /* Vendor/InputStickCore/HID/Keyboard/InputStickKeyLabels.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CF8DEE0492492530D7B9EF4 /* Vendor/InputStickCore/HID/Keyboard/InputStickKeyLabels.m */; };
+		4EAABE8EEA2841F8C5880E21 /* Vendor/InputStickCore/HID/InputStickHIDTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = 94471107746246710D3F2893 /* Vendor/InputStickCore/HID/InputStickHIDTransaction.m */; };
+		4FD2120E7B3742C94B0A3EB9 /* App/InputStickKVMApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78603AE3DDA7AB72059BC254 /* App/InputStickKVMApp.swift */; };
+		58162CE28CCEF06A07858BCA /* App/InputState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59166CB812F1D6D9A645AF5C /* App/InputState.swift */; };
+		584C928ACE30A2088F09CFF0 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Portuguese/InputStickKeyboardLayoutPtPTLinux.m in Sources */ = {isa = PBXBuildFile; fileRef = 86EE239DCFFA84536B41C607 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Portuguese/InputStickKeyboardLayoutPtPTLinux.m */; };
+		5FA70EAEA164B6EE81C0F510 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Slovak/InputStickKeyboardLayoutSkSKLinux.m in Sources */ = {isa = PBXBuildFile; fileRef = E9299E0AF56C8068A4CE8D78 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Slovak/InputStickKeyboardLayoutSkSKLinux.m */; };
+		635CCFDFAF4F552A335E2516 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Hebrew/InputStickKeyboardLayoutHeIL.m in Sources */ = {isa = PBXBuildFile; fileRef = 05F1E99D7A092A7B165C7E37 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Hebrew/InputStickKeyboardLayoutHeIL.m */; };
+		6470C3E46B784176DD7BB831 /* Vendor/InputStickCore/Security/InputStickEncryptionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0244C439A7FAB6668A1A1659 /* Vendor/InputStickCore/Security/InputStickEncryptionManager.m */; };
+		687911616969989854680156 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Hungarian/InputStickKeyboardLayoutHuHUMac.m in Sources */ = {isa = PBXBuildFile; fileRef = C37C2B079CF3BE94BFDDF2E6 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Hungarian/InputStickKeyboardLayoutHuHUMac.m */; };
+		6B1308C8E84606E784A955A7 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Portuguese/InputStickKeyboardLayoutPtBRMac.m in Sources */ = {isa = PBXBuildFile; fileRef = 719BE5CDE3077E8B48B97F85 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Portuguese/InputStickKeyboardLayoutPtBRMac.m */; };
+		6B9CBAEF4FE191E1A844518A /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Polish/InputStickKeyboardLayoutPlPL.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4EDD3A1B0C20BD523031D6 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Polish/InputStickKeyboardLayoutPlPL.m */; };
+		6D64D367CED09D10DE23FA62 /* Vendor/InputStickCore/Notifications/NSNotificationCenter+InputStickPeripheralScan.m in Sources */ = {isa = PBXBuildFile; fileRef = 110175E473F86FCDD7ABF0F2 /* Vendor/InputStickCore/Notifications/NSNotificationCenter+InputStickPeripheralScan.m */; };
+		6D7738589B87C1235D2B8D56 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Norwegian/InputStickKeyboardLayoutNbNOMac.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB3433153D2B31F4F4CBD99 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Norwegian/InputStickKeyboardLayoutNbNOMac.m */; };
+		6DF57A78F6039A310A2E1BFB /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/English/InputStickKeyboardLayoutEnUSMac.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C515D65D1190D9AF53AC654 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/English/InputStickKeyboardLayoutEnUSMac.m */; };
+		70BB5E59AA177B335CB19533 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/French/InputStickKeyboardLayoutFrFRMac.m in Sources */ = {isa = PBXBuildFile; fileRef = 897C3D93A9808B36B4ED3F17 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/French/InputStickKeyboardLayoutFrFRMac.m */; };
+		7119236FD2457F34B3823D94 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Czech/InputStickKeyboardLayoutCsCZQwertyMac.m in Sources */ = {isa = PBXBuildFile; fileRef = 634A4FA3B9B6B1E31A6FBE5D /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Czech/InputStickKeyboardLayoutCsCZQwertyMac.m */; };
+		72212BB04335672370A88863 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Swedish/InputStickKeyboardLayoutSvSE.m in Sources */ = {isa = PBXBuildFile; fileRef = DF4978FC4D4FED96A48F7DF5 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Swedish/InputStickKeyboardLayoutSvSE.m */; };
+		72E8B7A94F3C28287A8ED6BD /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/InputStickKeyboardLayoutUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CA3D4B877ED1B52490BEE11 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/InputStickKeyboardLayoutUtils.m */; };
+		76E5631CDA56B2A4AD09664D /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Danish/InputStickKeyboardLayoutDaDKMac.m in Sources */ = {isa = PBXBuildFile; fileRef = F63C73B7A624FDBA4E4AEC19 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Danish/InputStickKeyboardLayoutDaDKMac.m */; };
+		7860220ADE28C6B0EAF30D00 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Hungarian/InputStickKeyboardLayoutHuHULinux.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D75DA596BE201CB669903AE /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Hungarian/InputStickKeyboardLayoutHuHULinux.m */; };
+		79BA32E46BA4EDD76A799670 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/French/InputStickKeyboardLayoutFrFRLinux.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DEFADC342A3FB0F5CF2E3EB /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/French/InputStickKeyboardLayoutFrFRLinux.m */; };
+		7B626D8BAB13EC849A7C7602 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/French/InputStickKeyboardLayoutFrCAMac.m in Sources */ = {isa = PBXBuildFile; fileRef = 186325037F41742F025213AE /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/French/InputStickKeyboardLayoutFrCAMac.m */; };
+		7C148F08F0AF45E4DD629FE3 /* Vendor/InputStickCore/Connection/Packet/NSData+CRC.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E3ECF2249F876A431A8E49 /* Vendor/InputStickCore/Connection/Packet/NSData+CRC.m */; };
+		7C440E5D0B094342731CCA4D /* Vendor/InputStickCore/Utils/InputStickLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 757B6D05DFFCB13A29BC0ABA /* Vendor/InputStickCore/Utils/InputStickLog.m */; };
+		7E9D36F8B565E90499F442B9 /* Vendor/InputStickCore/HID/InputStickHIDBuffersState.m in Sources */ = {isa = PBXBuildFile; fileRef = 516E83ECA48F2FBD4B2E98CD /* Vendor/InputStickCore/HID/InputStickHIDBuffersState.m */; };
+		7F10892FECCA6358AC7E4F30 /* Vendor/InputStickCore/Firmware Manager/InputStickHIDFirmwareManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6470D3D0D06873243662FFA7 /* Vendor/InputStickCore/Firmware Manager/InputStickHIDFirmwareManager.m */; };
+		83677B006ADDD70E9E66E4E0 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/English/InputStickKeyboardLayoutEnUSIntLinux.m in Sources */ = {isa = PBXBuildFile; fileRef = 133859781BFA546B00AE05D1 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/English/InputStickKeyboardLayoutEnUSIntLinux.m */; };
+		8395720FEF8B7C04659FB794 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Polish/InputStickKeyboardLayoutPlPLLinux.m in Sources */ = {isa = PBXBuildFile; fileRef = E6F52427DE5A1F59D7932DD5 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Polish/InputStickKeyboardLayoutPlPLLinux.m */; };
+		85CF912E7FDDE94CF2CE0D07 /* Vendor/InputStickCore/HID/InputStickHIDReport.m in Sources */ = {isa = PBXBuildFile; fileRef = 0097E2E464FF78186EA71A57 /* Vendor/InputStickCore/HID/InputStickHIDReport.m */; };
+		86C5967B2E4B0E6C8D84F432 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Czech/InputStickKeyboardLayoutCsCZMac.m in Sources */ = {isa = PBXBuildFile; fileRef = 22CEFA11367C744C9E0B3402 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Czech/InputStickKeyboardLayoutCsCZMac.m */; };
+		882A713D86EFE3086AA0C8D2 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Slovak/InputStickKeyboardLayoutSkSKQwerty.m in Sources */ = {isa = PBXBuildFile; fileRef = 40A18860797550AAF9B4C6E1 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Slovak/InputStickKeyboardLayoutSkSKQwerty.m */; };
+		88F0C7C1A104425811B96401 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/French/InputStickKeyboardLayoutFrCA.m in Sources */ = {isa = PBXBuildFile; fileRef = 11721A23C6695549AFCC7D14 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/French/InputStickKeyboardLayoutFrCA.m */; };
+		8ACF8FB2377FD51F40D82704 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/English/InputStickKeyboardLayoutEnGBMac.m in Sources */ = {isa = PBXBuildFile; fileRef = E86F1AD0E6625AE0FBFC6C01 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/English/InputStickKeyboardLayoutEnGBMac.m */; };
+		8BE8AC64A44E11A61E7B25FB /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/German/InputStickKeyboardLayoutDeDELinux.m in Sources */ = {isa = PBXBuildFile; fileRef = A943EF771AB0E251EA8F9F67 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/German/InputStickKeyboardLayoutDeDELinux.m */; };
+		8C150C74EFC862EDB0B3F0EA /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Czech/InputStickKeyboardLayoutCsCZQwertyLinux.m in Sources */ = {isa = PBXBuildFile; fileRef = 104113B5DC5D517D7AC267FE /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Czech/InputStickKeyboardLayoutCsCZQwertyLinux.m */; };
+		8C7E31A21BEB0E020158B86C /* Bridge/KVMTransport.m in Sources */ = {isa = PBXBuildFile; fileRef = 158BE644FFB7000213702011 /* Bridge/KVMTransport.m */; };
+		8CE7C59AA9637C8C1DA665CA /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Portuguese/InputStickKeyboardLayoutPtBRLinux.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B130A8E3A8CD3664D67DC02 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Portuguese/InputStickKeyboardLayoutPtBRLinux.m */; };
+		8D7B7F783B31E13375DCC6F6 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Swedish/InputStickKeyboardLayoutSvSELinux.m in Sources */ = {isa = PBXBuildFile; fileRef = C21FBFA4E1297C031DA94F4A /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Swedish/InputStickKeyboardLayoutSvSELinux.m */; };
+		8E13DCBE8F90AFB77FD226EA /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/German/InputStickKeyboardLayoutDeDEMac.m in Sources */ = {isa = PBXBuildFile; fileRef = 63540FF74DB6821449B67A46 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/German/InputStickKeyboardLayoutDeDEMac.m */; };
+		91254B4D24B7EA7149F3C186 /* Vendor/InputStickCore/Utils/InputStickPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = 442945CE588395DF9D27BF04 /* Vendor/InputStickCore/Utils/InputStickPreferences.m */; };
+		929C1F196BF6F7B04FF0EC77 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Hebrew/InputStickKeyboardLayoutHeILMac.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F896558B0B37EA24416E31 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Hebrew/InputStickKeyboardLayoutHeILMac.m */; };
+		94E39B9C57A93AA0B0BB61BB /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/English/InputStickKeyboardLayoutEnUSInt.m in Sources */ = {isa = PBXBuildFile; fileRef = B584E52DBF166504BA5883E6 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/English/InputStickKeyboardLayoutEnUSInt.m */; };
+		96718611D69153F22E4F0BD9 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Italian/InputStickKeyboardLayoutItITLinux.m in Sources */ = {isa = PBXBuildFile; fileRef = 430D2D84FEA6B4C823445F95 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Italian/InputStickKeyboardLayoutItITLinux.m */; };
+		97FC1BBB3B2A52ED9E574CC6 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Slovak/InputStickKeyboardLayoutSkSKQwertyMac.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F7D14027905F9D4C3FAB73B /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Slovak/InputStickKeyboardLayoutSkSKQwertyMac.m */; };
+		9B6BFA7CCFEB8762B9B281CB /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Danish/InputStickKeyboardLayoutDaDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D1125ADA14BFFED1617C731 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Danish/InputStickKeyboardLayoutDaDK.m */; };
+		9D11DC9930B4DFEA009AD323 /* InputStickKVM.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D11DC9830B4DFEA009AD323 /* InputStickKVM.png */; };
+		A274BD9E5348615EA9519AA0 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/French/InputStickKeyboardLayoutFrBEMac.m in Sources */ = {isa = PBXBuildFile; fileRef = 47EB85042969AA15069C0678 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/French/InputStickKeyboardLayoutFrBEMac.m */; };
+		A5D644A4F5920903A3BD89B3 /* Vendor/InputStickCore/Connection/Packet/InputStickPacket.m in Sources */ = {isa = PBXBuildFile; fileRef = A46F5A681340AAF42B14C2E3 /* Vendor/InputStickCore/Connection/Packet/InputStickPacket.m */; };
+		A877AF1BBC7FBCB6FEA81812 /* Vendor/InputStickCore/Notifications/NSNotificationCenter+InputStickConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF98C25405FD4C9512220CF /* Vendor/InputStickCore/Notifications/NSNotificationCenter+InputStickConnection.m */; };
+		A94621AB11BD5F1BBCB47A9A /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Russian/InputStickKeyboardLayoutRuRULinux.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6137A63FC509B5667ECC30 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Russian/InputStickKeyboardLayoutRuRULinux.m */; };
+		A9F4DC7BF0462536DEAF9303 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/French/InputStickKeyboardLayoutFrCHLinux.m in Sources */ = {isa = PBXBuildFile; fileRef = B459B529FE5C03E62F6E2C39 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/French/InputStickKeyboardLayoutFrCHLinux.m */; };
+		B03CC543AAF442BE56C2F6E2 /* Vendor/InputStickCore/HID/InputStickHIDBuffersManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 553A7D722B4ED7A4D7856493 /* Vendor/InputStickCore/HID/InputStickHIDBuffersManager.m */; };
+		B200838B47FFA305370600C5 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Norwegian/InputStickKeyboardLayoutNbNO.m in Sources */ = {isa = PBXBuildFile; fileRef = 601A7BADC3FC2BBEB559C827 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Norwegian/InputStickKeyboardLayoutNbNO.m */; };
+		B202B140F88E49F891629465 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Czech/InputStickKeyboardLayoutCsCZLinux.m in Sources */ = {isa = PBXBuildFile; fileRef = 55FDA82A90EB950092B1BAB9 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Czech/InputStickKeyboardLayoutCsCZLinux.m */; };
+		B20F268804075EB939324682 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/French/InputStickKeyboardLayoutFrFR.m in Sources */ = {isa = PBXBuildFile; fileRef = 77429656401F791F71EE4644 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/French/InputStickKeyboardLayoutFrFR.m */; };
+		B456E0094FEC03CF4D73373E /* Vendor/InputStickCore/HID/HID Handlers/Gamepad Handler/InputStickGamepadHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BF6FE4EDE866A0BDFC20845 /* Vendor/InputStickCore/HID/HID Handlers/Gamepad Handler/InputStickGamepadHandler.m */; };
+		B515915B8D27A3BDDC47A850 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Croatian/InputStickKeyboardLayoutHrHR.m in Sources */ = {isa = PBXBuildFile; fileRef = AFA547AC028320623894917A /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Croatian/InputStickKeyboardLayoutHrHR.m */; };
+		B5DAAC905C990C4AC572C101 /* Vendor/InputStickCore/HID/HID Handlers/Keyboard Handler/InputStickKeyboardHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 8668B2F6739287D72B02C85E /* Vendor/InputStickCore/HID/HID Handlers/Keyboard Handler/InputStickKeyboardHandler.m */; };
+		B69A664208515B357931C669 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/English/InputStickKeyboardLayoutEnUSIntMac.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE97AD0E1206287A3BDBB40 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/English/InputStickKeyboardLayoutEnUSIntMac.m */; };
+		B881DE72F5021250CD759176 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Slovak/InputStickKeyboardLayoutSkSK.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CF587830DE240A27A053364 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Slovak/InputStickKeyboardLayoutSkSK.m */; };
+		BBF125751140A5E29FC99B96 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/French/InputStickKeyboardLayoutFrBELinux.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B0AA686EE579338DFD931A /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/French/InputStickKeyboardLayoutFrBELinux.m */; };
+		C057E8D18885115955290F28 /* Vendor/InputStickCore/Connection/Packet/InputStickRxPacket.m in Sources */ = {isa = PBXBuildFile; fileRef = 348837BAC3E6D706DDFD12B8 /* Vendor/InputStickCore/Connection/Packet/InputStickRxPacket.m */; };
+		C1F9567F0A293C8C35135052 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/English/InputStickKeyboardLayoutEnGB.m in Sources */ = {isa = PBXBuildFile; fileRef = D027036739E355C4FFBA36F2 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/English/InputStickKeyboardLayoutEnGB.m */; };
+		C40E5F26C86766FC6F3D520F /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Italian/InputStickKeyboardLayoutItIT.m in Sources */ = {isa = PBXBuildFile; fileRef = AA378ADDBC17CE650622A0BD /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Italian/InputStickKeyboardLayoutItIT.m */; };
+		C40E7E09B1B755AE6457E6D9 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Polish/InputStickKeyboardLayoutPlPLMac.m in Sources */ = {isa = PBXBuildFile; fileRef = DE73FA77EC6BCA166D5FD74D /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Polish/InputStickKeyboardLayoutPlPLMac.m */; };
+		C519C8E38C7500B76CA64162 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Dutch/InputStickKeyboardLayoutNlNLLinux.m in Sources */ = {isa = PBXBuildFile; fileRef = 53832FA19B32457512E7E1AA /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Dutch/InputStickKeyboardLayoutNlNLLinux.m */; };
+		C59A9B805C27BF3C781A17CB /* Vendor/InputStickCore/Connection/InputStickPeripheralInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2801DBEDCFC533458C128B41 /* Vendor/InputStickCore/Connection/InputStickPeripheralInfo.m */; };
+		C6B4AB532B4DBC98B7FE84EF /* Vendor/InputStickCore/HID/HID Handlers/Mouse Handler/InputStickMouseHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D405C2613531C099D2D3EF9 /* Vendor/InputStickCore/HID/HID Handlers/Mouse Handler/InputStickMouseHandler.m */; };
+		C89C95C84CAB2E1CD1C9C310 /* App/KVMModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA68F95EA44D19C5104639B4 /* App/KVMModel.swift */; };
+		CD382E15B3451AB40D85E3BF /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Norwegian/InputStickKeyboardLayoutNbNOLinux.m in Sources */ = {isa = PBXBuildFile; fileRef = D800FFC8D657E39997C56E3A /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Norwegian/InputStickKeyboardLayoutNbNOLinux.m */; };
+		D08F4E6936977A19E81046B1 /* Vendor/InputStickCore/Connection/InputStickConnectionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 178D31240517A4EA254353E9 /* Vendor/InputStickCore/Connection/InputStickConnectionManager.m */; };
+		D0DA53C5E4ED4138AB241D07 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Portuguese/InputStickKeyboardLayoutPtPT.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C4BB1C86D6D3160378AC487 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Portuguese/InputStickKeyboardLayoutPtPT.m */; };
+		D3ED2038E27BB66918EF5A26 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Slovak/InputStickKeyboardLayoutSkSKMac.m in Sources */ = {isa = PBXBuildFile; fileRef = 9108FC0E1599D534B44905F2 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Slovak/InputStickKeyboardLayoutSkSKMac.m */; };
+		D63EE14A1CEE9D3D39657F54 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Greek/InputStickKeyboardLayoutElGRMac.m in Sources */ = {isa = PBXBuildFile; fileRef = 260CAE9B3BF946897F0E001B /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Greek/InputStickKeyboardLayoutElGRMac.m */; };
+		D719E9CB02AE9B662D9A963E /* Vendor/InputStickCore/HID/HID Handlers/Consumer Handler/InputStickConsumerHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D0924565FF22358EE16A2D /* Vendor/InputStickCore/HID/HID Handlers/Consumer Handler/InputStickConsumerHandler.m */; };
+		D83BB3551E19EA54FD6F838A /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Dutch/InputStickKeyboardLayoutNlNL.m in Sources */ = {isa = PBXBuildFile; fileRef = F90F33BAF2691CCD6238E441 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Dutch/InputStickKeyboardLayoutNlNL.m */; };
+		D841FABEB26AF58ECA7B7A7A /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Danish/InputStickKeyboardLayoutDaDKLinux.m in Sources */ = {isa = PBXBuildFile; fileRef = C0439D365DE2A7FD47AB027C /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Danish/InputStickKeyboardLayoutDaDKLinux.m */; };
+		D8871E80D00EF93F876B95EE /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Croatian/InputStickKeyboardLayoutHrHRLinux.m in Sources */ = {isa = PBXBuildFile; fileRef = 084711D9B032620B739876C9 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Croatian/InputStickKeyboardLayoutHrHRLinux.m */; };
+		D9080D6E00DBA05F4282F39D /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Italian/InputStickKeyboardLayoutItITMac.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C4F5E5DB527E47819899E0A /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Italian/InputStickKeyboardLayoutItITMac.m */; };
+		D91BE728CB92821BD0A60040 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/English/InputStickKeyboardLayoutEnUS.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C24C9475621FF5E1CFDB44 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/English/InputStickKeyboardLayoutEnUS.m */; };
+		E232B794719855A3484420B3 /* Vendor/InputStickCore/Notifications/NSNotificationCenter+InputStickStatusUpdate.m in Sources */ = {isa = PBXBuildFile; fileRef = 71EDA8B964A08FA15B01BC4D /* Vendor/InputStickCore/Notifications/NSNotificationCenter+InputStickStatusUpdate.m */; };
+		E34DB58883665ED78130456D /* Vendor/InputStickCore/HID/HID Handlers/TouchScreen Handler/InputStickTouchScreenHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 374BC54DB752FA4C87AE537F /* Vendor/InputStickCore/HID/HID Handlers/TouchScreen Handler/InputStickTouchScreenHandler.m */; };
+		E4CCC956D4D63627EE7A8E49 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Vietnamese/InputStickKeyboardLayoutVnVN.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E38408C7CF43F0079B420E7 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Vietnamese/InputStickKeyboardLayoutVnVN.m */; };
+		E65AA4D3844119897D42480A /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/German/InputStickKeyboardLayoutDeCHMac.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F4700A706CD61A66A086C53 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/German/InputStickKeyboardLayoutDeCHMac.m */; };
+		EED05717AD76CA74F3CF6211 /* Vendor/InputStickCore/Utils/InputStickDataUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 409E3B3A606D384ADE2C16DC /* Vendor/InputStickCore/Utils/InputStickDataUtils.m */; };
+		F001FA763EAD489720004DAB /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Czech/InputStickKeyboardLayoutCsCZQwerty.m in Sources */ = {isa = PBXBuildFile; fileRef = 277BE08B4F52B830A70B995F /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Czech/InputStickKeyboardLayoutCsCZQwerty.m */; };
+		F1567A5E13A1EC169097A06D /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Hungarian/InputStickKeyboardLayoutHuHU.m in Sources */ = {isa = PBXBuildFile; fileRef = B2EADA90D4516D1C02C5860E /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Hungarian/InputStickKeyboardLayoutHuHU.m */; };
+		F394F871DD1234816B5F94D2 /* Vendor/LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 123679647AA54C9472329C32 /* Vendor/LICENSE */; };
+		F6B973A472CC738B75873CD8 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/English/InputStickKeyboardLayoutEnGBLinux.m in Sources */ = {isa = PBXBuildFile; fileRef = 95632056F9697D810D00E497 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/English/InputStickKeyboardLayoutEnGBLinux.m */; };
+		F842A6407E7AA59097CC99B3 /* Vendor/InputStickCore/Connection/Packet/InputStickPacketParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4D5ECB0994B9FCAD0D88D7 /* Vendor/InputStickCore/Connection/Packet/InputStickPacketParser.m */; };
+		F96BAE233D5C651D826BDD25 /* Vendor/InputStickCore/HID/Keyboard/InputStickKeyboardLEDsState.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C7D1378053E85321B209B0 /* Vendor/InputStickCore/HID/Keyboard/InputStickKeyboardLEDsState.m */; };
+		F9E9A479FB436BAAA8B0B148 /* Vendor/InputStickCore/Connection/Packet/InputStickTxPacket.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF274A1683FE49EC3A9CB60 /* Vendor/InputStickCore/Connection/Packet/InputStickTxPacket.m */; };
+		FA164F139FF7E8A4CE5879A1 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Russian/InputStickKeyboardLayoutRuRUMac.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EC85064B0609525B5560A44 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Russian/InputStickKeyboardLayoutRuRUMac.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0097E2E464FF78186EA71A57 /* Vendor/InputStickCore/HID/InputStickHIDReport.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Vendor/InputStickCore/HID/InputStickHIDReport.m; sourceTree = SOURCE_ROOT; };
+		00AA20074BD8271585ADC668 /* Vendor/InputStickCore/InputStick.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Vendor/InputStickCore/InputStick.strings; sourceTree = SOURCE_ROOT; };
+		0244C439A7FAB6668A1A1659 /* Vendor/InputStickCore/Security/InputStickEncryptionManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Vendor/InputStickCore/Security/InputStickEncryptionManager.m; sourceTree = SOURCE_ROOT; };
+		026C5496AA1DCC07D8EB6E50 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Swedish/InputStickKeyboardLayoutSvSEMac.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Swedish/InputStickKeyboardLayoutSvSEMac.h"; sourceTree = SOURCE_ROOT; };
+		0306B654A6ABDBDD9580E40B /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Hebrew/InputStickKeyboardLayoutHeILLinux.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Hebrew/InputStickKeyboardLayoutHeILLinux.m"; sourceTree = SOURCE_ROOT; };
+		04E716A85C7234A0BA9382D2 /* Vendor/InputStickCore/HID/InputStickHIDReport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Vendor/InputStickCore/HID/InputStickHIDReport.h; sourceTree = SOURCE_ROOT; };
+		05F1E99D7A092A7B165C7E37 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Hebrew/InputStickKeyboardLayoutHeIL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Hebrew/InputStickKeyboardLayoutHeIL.m"; sourceTree = SOURCE_ROOT; };
+		06C00E98BDDEFDA1FB092943 /* Vendor/InputStickCore/Utils/InputStickPreferences.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Vendor/InputStickCore/Utils/InputStickPreferences.h; sourceTree = SOURCE_ROOT; };
+		084711D9B032620B739876C9 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Croatian/InputStickKeyboardLayoutHrHRLinux.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Croatian/InputStickKeyboardLayoutHrHRLinux.m"; sourceTree = SOURCE_ROOT; };
+		0A10EEC39C5004F22DF7E9C9 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Portuguese/InputStickKeyboardLayoutPtBRLinux.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Portuguese/InputStickKeyboardLayoutPtBRLinux.h"; sourceTree = SOURCE_ROOT; };
+		0A4D5ECB0994B9FCAD0D88D7 /* Vendor/InputStickCore/Connection/Packet/InputStickPacketParser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Vendor/InputStickCore/Connection/Packet/InputStickPacketParser.m; sourceTree = SOURCE_ROOT; };
+		0A511183E06A432247A2CE85 /* Vendor/InputStickCore/Connection/Packet/InputStickRxPacket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Vendor/InputStickCore/Connection/Packet/InputStickRxPacket.h; sourceTree = SOURCE_ROOT; };
+		0AF98C25405FD4C9512220CF /* Vendor/InputStickCore/Notifications/NSNotificationCenter+InputStickConnection.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Vendor/InputStickCore/Notifications/NSNotificationCenter+InputStickConnection.m"; sourceTree = SOURCE_ROOT; };
+		0BA6EF45CB280B756901D22E /* Vendor/InputStickCore/Connection/Packet/InputStickRxPacket+FirmwareInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Vendor/InputStickCore/Connection/Packet/InputStickRxPacket+FirmwareInfo.m"; sourceTree = SOURCE_ROOT; };
+		0BCA9D54C728DEF2FF61690D /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/German/InputStickKeyboardLayoutDeDE.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/German/InputStickKeyboardLayoutDeDE.m"; sourceTree = SOURCE_ROOT; };
+		0CB9C27D714F5F6D0D21BC36 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/French/InputStickKeyboardLayoutFrFRMac.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/French/InputStickKeyboardLayoutFrFRMac.h"; sourceTree = SOURCE_ROOT; };
+		0CCC75B4A37593118AEFCFA4 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Spanish/InputStickKeyboardLayoutEsESMac.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Spanish/InputStickKeyboardLayoutEsESMac.h"; sourceTree = SOURCE_ROOT; };
+		0D02C173FF78344E67211AA3 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Czech/InputStickKeyboardLayoutCsCZQwertyMac.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Czech/InputStickKeyboardLayoutCsCZQwertyMac.h"; sourceTree = SOURCE_ROOT; };
+		0D202F80B34590F7067D74D1 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/French/InputStickKeyboardLayoutFrBE.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/French/InputStickKeyboardLayoutFrBE.h"; sourceTree = SOURCE_ROOT; };
+		0E05D414AC616CD8A36B7D6A /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/English/InputStickKeyboardLayoutEnUSLinux.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/English/InputStickKeyboardLayoutEnUSLinux.h"; sourceTree = SOURCE_ROOT; };
+		104113B5DC5D517D7AC267FE /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Czech/InputStickKeyboardLayoutCsCZQwertyLinux.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Czech/InputStickKeyboardLayoutCsCZQwertyLinux.m"; sourceTree = SOURCE_ROOT; };
+		110175E473F86FCDD7ABF0F2 /* Vendor/InputStickCore/Notifications/NSNotificationCenter+InputStickPeripheralScan.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Vendor/InputStickCore/Notifications/NSNotificationCenter+InputStickPeripheralScan.m"; sourceTree = SOURCE_ROOT; };
+		11721A23C6695549AFCC7D14 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/French/InputStickKeyboardLayoutFrCA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/French/InputStickKeyboardLayoutFrCA.m"; sourceTree = SOURCE_ROOT; };
+		123679647AA54C9472329C32 /* Vendor/LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = Vendor/LICENSE; sourceTree = SOURCE_ROOT; };
+		133859781BFA546B00AE05D1 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/English/InputStickKeyboardLayoutEnUSIntLinux.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/English/InputStickKeyboardLayoutEnUSIntLinux.m"; sourceTree = SOURCE_ROOT; };
+		14D61717C2F2A414A259CAB1 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Czech/InputStickKeyboardLayoutCsCZ.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Czech/InputStickKeyboardLayoutCsCZ.m"; sourceTree = SOURCE_ROOT; };
+		158BE644FFB7000213702011 /* Bridge/KVMTransport.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bridge/KVMTransport.m; sourceTree = SOURCE_ROOT; };
+		16D785D5A6B4B4FDB82A5AA4 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Danish/InputStickKeyboardLayoutDaDKLinux.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Danish/InputStickKeyboardLayoutDaDKLinux.h"; sourceTree = SOURCE_ROOT; };
+		16EDA4844A7DAAD005EA7A5F /* Vendor/InputStickCore/InputStickManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Vendor/InputStickCore/InputStickManager.h; sourceTree = SOURCE_ROOT; };
+		178D31240517A4EA254353E9 /* Vendor/InputStickCore/Connection/InputStickConnectionManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Vendor/InputStickCore/Connection/InputStickConnectionManager.m; sourceTree = SOURCE_ROOT; };
+		186325037F41742F025213AE /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/French/InputStickKeyboardLayoutFrCAMac.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/French/InputStickKeyboardLayoutFrCAMac.m"; sourceTree = SOURCE_ROOT; };
+		1B130A8E3A8CD3664D67DC02 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Portuguese/InputStickKeyboardLayoutPtBRLinux.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Portuguese/InputStickKeyboardLayoutPtBRLinux.m"; sourceTree = SOURCE_ROOT; };
+		1C489D81F27C54EB1F3F9C8C /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Portuguese/InputStickKeyboardLayoutPtBR.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Portuguese/InputStickKeyboardLayoutPtBR.h"; sourceTree = SOURCE_ROOT; };
+		1C4E56F75BD52F920166FC03 /* Vendor/InputStickCore/Notifications/NSNotificationCenter+InputStickConnection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vendor/InputStickCore/Notifications/NSNotificationCenter+InputStickConnection.h"; sourceTree = SOURCE_ROOT; };
+		1C669569CDD3D1C6B3BB5725 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Italian/InputStickKeyboardLayoutItITLinux.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Italian/InputStickKeyboardLayoutItITLinux.h"; sourceTree = SOURCE_ROOT; };
+		1CB8196848CDAC6EBF384478 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Czech/InputStickKeyboardLayoutCsCZProgrammers.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Czech/InputStickKeyboardLayoutCsCZProgrammers.m"; sourceTree = SOURCE_ROOT; };
+		1E599BE40F5C40EAE88CAB16 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Croatian/InputStickKeyboardLayoutHrHRMac.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Croatian/InputStickKeyboardLayoutHrHRMac.h"; sourceTree = SOURCE_ROOT; };
+		22CEFA11367C744C9E0B3402 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Czech/InputStickKeyboardLayoutCsCZMac.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Czech/InputStickKeyboardLayoutCsCZMac.m"; sourceTree = SOURCE_ROOT; };
+		260CAE9B3BF946897F0E001B /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Greek/InputStickKeyboardLayoutElGRMac.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Greek/InputStickKeyboardLayoutElGRMac.m"; sourceTree = SOURCE_ROOT; };
+		260E8499B5435B6964933278 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/English/InputStickKeyboardLayoutEnUSIntLinux.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/English/InputStickKeyboardLayoutEnUSIntLinux.h"; sourceTree = SOURCE_ROOT; };
+		2675509D031167E9914B286B /* Vendor/InputStickCore/Utils/InputStickError.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Vendor/InputStickCore/Utils/InputStickError.m; sourceTree = SOURCE_ROOT; };
+		277BE08B4F52B830A70B995F /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Czech/InputStickKeyboardLayoutCsCZQwerty.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Czech/InputStickKeyboardLayoutCsCZQwerty.m"; sourceTree = SOURCE_ROOT; };
+		2801DBEDCFC533458C128B41 /* Vendor/InputStickCore/Connection/InputStickPeripheralInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Vendor/InputStickCore/Connection/InputStickPeripheralInfo.m; sourceTree = SOURCE_ROOT; };
+		2AF1AEEB0E9855129AE67BCA /* Vendor/InputStickCore/Notifications/NSNotificationCenter+InputStickPacket.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Vendor/InputStickCore/Notifications/NSNotificationCenter+InputStickPacket.m"; sourceTree = SOURCE_ROOT; };
+		2B2DD92EFD331C3779F2B316 /* Vendor/InputStickCore/HID/InputStickHIDTransactionBuffer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Vendor/InputStickCore/HID/InputStickHIDTransactionBuffer.m; sourceTree = SOURCE_ROOT; };
+		2C9BBE6AD8D4F69DD3713E39 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Slovak/InputStickKeyboardLayoutSkSK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Slovak/InputStickKeyboardLayoutSkSK.h"; sourceTree = SOURCE_ROOT; };
+		2D75DA596BE201CB669903AE /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Hungarian/InputStickKeyboardLayoutHuHULinux.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Hungarian/InputStickKeyboardLayoutHuHULinux.m"; sourceTree = SOURCE_ROOT; };
+		306DE9A10043A74C4EB123CE /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/English/InputStickKeyboardLayoutEnGB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/English/InputStickKeyboardLayoutEnGB.h"; sourceTree = SOURCE_ROOT; };
+		307C0C50D1DD74A378937C29 /* Vendor/InputStickCore/HID/InputStickHIDBuffersState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Vendor/InputStickCore/HID/InputStickHIDBuffersState.h; sourceTree = SOURCE_ROOT; };
+		348837BAC3E6D706DDFD12B8 /* Vendor/InputStickCore/Connection/Packet/InputStickRxPacket.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Vendor/InputStickCore/Connection/Packet/InputStickRxPacket.m; sourceTree = SOURCE_ROOT; };
+		35F348045868707ABA66518A /* Vendor/InputStickCore/Utils/InputStickPreferencesHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Vendor/InputStickCore/Utils/InputStickPreferencesHelper.h; sourceTree = SOURCE_ROOT; };
+		374BC54DB752FA4C87AE537F /* Vendor/InputStickCore/HID/HID Handlers/TouchScreen Handler/InputStickTouchScreenHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Vendor/InputStickCore/HID/HID Handlers/TouchScreen Handler/InputStickTouchScreenHandler.m"; sourceTree = SOURCE_ROOT; };
+		38A007151ABE87CC01A5B6E9 /* InputStickKVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = InputStickKVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		39D2BDD4D19C10D69B3049C8 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/English/InputStickKeyboardLayoutEnUS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/English/InputStickKeyboardLayoutEnUS.h"; sourceTree = SOURCE_ROOT; };
+		3BF6FE4EDE866A0BDFC20845 /* Vendor/InputStickCore/HID/HID Handlers/Gamepad Handler/InputStickGamepadHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Vendor/InputStickCore/HID/HID Handlers/Gamepad Handler/InputStickGamepadHandler.m"; sourceTree = SOURCE_ROOT; };
+		3C515D65D1190D9AF53AC654 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/English/InputStickKeyboardLayoutEnUSMac.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/English/InputStickKeyboardLayoutEnUSMac.m"; sourceTree = SOURCE_ROOT; };
+		3D1125ADA14BFFED1617C731 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Danish/InputStickKeyboardLayoutDaDK.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Danish/InputStickKeyboardLayoutDaDK.m"; sourceTree = SOURCE_ROOT; };
+		3EC85064B0609525B5560A44 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Russian/InputStickKeyboardLayoutRuRUMac.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Russian/InputStickKeyboardLayoutRuRUMac.m"; sourceTree = SOURCE_ROOT; };
+		4036842655C3893C9BC9117F /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Polish/InputStickKeyboardLayoutPlPL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Polish/InputStickKeyboardLayoutPlPL.h"; sourceTree = SOURCE_ROOT; };
+		409E3B3A606D384ADE2C16DC /* Vendor/InputStickCore/Utils/InputStickDataUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Vendor/InputStickCore/Utils/InputStickDataUtils.m; sourceTree = SOURCE_ROOT; };
+		40A18860797550AAF9B4C6E1 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Slovak/InputStickKeyboardLayoutSkSKQwerty.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Slovak/InputStickKeyboardLayoutSkSKQwerty.m"; sourceTree = SOURCE_ROOT; };
+		40FC4B359AAB3A522516CD75 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Danish/InputStickKeyboardLayoutDaDKMac.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Danish/InputStickKeyboardLayoutDaDKMac.h"; sourceTree = SOURCE_ROOT; };
+		41378E9977331F6E96D2B615 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Croatian/InputStickKeyboardLayoutHrHRMac.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Croatian/InputStickKeyboardLayoutHrHRMac.m"; sourceTree = SOURCE_ROOT; };
+		430D2D84FEA6B4C823445F95 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Italian/InputStickKeyboardLayoutItITLinux.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Italian/InputStickKeyboardLayoutItITLinux.m"; sourceTree = SOURCE_ROOT; };
+		4395DF579416425A4FF6BF54 /* Vendor/InputStickCore/HID/Keyboard/InputStickKeyboardKeyModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Vendor/InputStickCore/HID/Keyboard/InputStickKeyboardKeyModel.m; sourceTree = SOURCE_ROOT; };
+		442945CE588395DF9D27BF04 /* Vendor/InputStickCore/Utils/InputStickPreferences.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Vendor/InputStickCore/Utils/InputStickPreferences.m; sourceTree = SOURCE_ROOT; };
+		4580B89E47FD694DCEED28D6 /* Vendor/InputStickCore/Utils/InputStickError.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Vendor/InputStickCore/Utils/InputStickError.h; sourceTree = SOURCE_ROOT; };
+		460D4638CDF354FF7F07FD5C /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Dutch/InputStickKeyboardLayoutNlNLMac.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Dutch/InputStickKeyboardLayoutNlNLMac.h"; sourceTree = SOURCE_ROOT; };
+		47CE9629179FABA54EFCB6C2 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/French/InputStickKeyboardLayoutFrCHMac.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/French/InputStickKeyboardLayoutFrCHMac.m"; sourceTree = SOURCE_ROOT; };
+		47EB85042969AA15069C0678 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/French/InputStickKeyboardLayoutFrBEMac.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/French/InputStickKeyboardLayoutFrBEMac.m"; sourceTree = SOURCE_ROOT; };
+		48EC5360E0D017CE7D10EB9C /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Hungarian/InputStickKeyboardLayoutHuHUMac.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Hungarian/InputStickKeyboardLayoutHuHUMac.h"; sourceTree = SOURCE_ROOT; };
+		490C99B60357CFDD226235C3 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Slovak/InputStickKeyboardLayoutSkSKLinux.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Slovak/InputStickKeyboardLayoutSkSKLinux.h"; sourceTree = SOURCE_ROOT; };
+		49B0AA686EE579338DFD931A /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/French/InputStickKeyboardLayoutFrBELinux.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/French/InputStickKeyboardLayoutFrBELinux.m"; sourceTree = SOURCE_ROOT; };
+		49E4519C1A6391C8400CBC92 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Finnish/InputStickKeyboardLayoutFiFI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Finnish/InputStickKeyboardLayoutFiFI.h"; sourceTree = SOURCE_ROOT; };
+		4A27268920FD5C3C41546973 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Japanese/InputStickKeyboardLayoutJpJP.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Japanese/InputStickKeyboardLayoutJpJP.m"; sourceTree = SOURCE_ROOT; };
+		4B43D3C097707DC852BBD0E9 /* Vendor/InputStickCore/HID/Keyboard/InputStickKeyboardKeyModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Vendor/InputStickCore/HID/Keyboard/InputStickKeyboardKeyModel.h; sourceTree = SOURCE_ROOT; };
+		4C4F5E5DB527E47819899E0A /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Italian/InputStickKeyboardLayoutItITMac.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Italian/InputStickKeyboardLayoutItITMac.m"; sourceTree = SOURCE_ROOT; };
+		4CF274A1683FE49EC3A9CB60 /* Vendor/InputStickCore/Connection/Packet/InputStickTxPacket.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Vendor/InputStickCore/Connection/Packet/InputStickTxPacket.m; sourceTree = SOURCE_ROOT; };
+		4D794389E0E81569E8922F8C /* Vendor/InputStickCore/Utils/InputStickDataUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Vendor/InputStickCore/Utils/InputStickDataUtils.h; sourceTree = SOURCE_ROOT; };
+		4DEFADC342A3FB0F5CF2E3EB /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/French/InputStickKeyboardLayoutFrFRLinux.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/French/InputStickKeyboardLayoutFrFRLinux.m"; sourceTree = SOURCE_ROOT; };
+		4E5058C231A9881D18DE504B /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Hungarian/InputStickKeyboardLayoutHuHU.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Hungarian/InputStickKeyboardLayoutHuHU.h"; sourceTree = SOURCE_ROOT; };
+		4EBE8E75D80A45A83072C7BA /* Vendor/InputStickCore/HID/HID Handlers/Keyboard Handler/InputStickKeyboardHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vendor/InputStickCore/HID/HID Handlers/Keyboard Handler/InputStickKeyboardHandler.h"; sourceTree = SOURCE_ROOT; };
+		4F7D14027905F9D4C3FAB73B /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Slovak/InputStickKeyboardLayoutSkSKQwertyMac.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Slovak/InputStickKeyboardLayoutSkSKQwertyMac.m"; sourceTree = SOURCE_ROOT; };
+		516E83ECA48F2FBD4B2E98CD /* Vendor/InputStickCore/HID/InputStickHIDBuffersState.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Vendor/InputStickCore/HID/InputStickHIDBuffersState.m; sourceTree = SOURCE_ROOT; };
+		529A710A8440063613142214 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/French/InputStickKeyboardLayoutFrCHMac.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/French/InputStickKeyboardLayoutFrCHMac.h"; sourceTree = SOURCE_ROOT; };
+		53832FA19B32457512E7E1AA /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Dutch/InputStickKeyboardLayoutNlNLLinux.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Dutch/InputStickKeyboardLayoutNlNLLinux.m"; sourceTree = SOURCE_ROOT; };
+		553A7D722B4ED7A4D7856493 /* Vendor/InputStickCore/HID/InputStickHIDBuffersManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Vendor/InputStickCore/HID/InputStickHIDBuffersManager.m; sourceTree = SOURCE_ROOT; };
+		55FDA82A90EB950092B1BAB9 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Czech/InputStickKeyboardLayoutCsCZLinux.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Czech/InputStickKeyboardLayoutCsCZLinux.m"; sourceTree = SOURCE_ROOT; };
+		56761B4F5C7D7F6B335E027B /* Vendor/InputStickCore/HID/HID Handlers/Consumer Handler/InputStickConsumerHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vendor/InputStickCore/HID/HID Handlers/Consumer Handler/InputStickConsumerHandler.h"; sourceTree = SOURCE_ROOT; };
+		57A1C202D498E925FC07D758 /* Vendor/InputStickCore/Connection/Packet/InputStickRxPacket+FirmwareInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vendor/InputStickCore/Connection/Packet/InputStickRxPacket+FirmwareInfo.h"; sourceTree = SOURCE_ROOT; };
+		57AB699CD6C772F9A4072C71 /* Vendor/InputStickCore/HID/InputStickHIDTransactionBuffer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Vendor/InputStickCore/HID/InputStickHIDTransactionBuffer.h; sourceTree = SOURCE_ROOT; };
+		5879B7FA245C0D95805195EF /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Danish/InputStickKeyboardLayoutDaDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Danish/InputStickKeyboardLayoutDaDK.h"; sourceTree = SOURCE_ROOT; };
+		5887420B864DCE4428B6AA03 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/English/InputStickKeyboardLayoutEnUSDvorak.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/English/InputStickKeyboardLayoutEnUSDvorak.h"; sourceTree = SOURCE_ROOT; };
+		58A04C14C19DF8C3565C1C94 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Dutch/InputStickKeyboardLayoutNlNLLinux.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Dutch/InputStickKeyboardLayoutNlNLLinux.h"; sourceTree = SOURCE_ROOT; };
+		59166CB812F1D6D9A645AF5C /* App/InputState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/InputState.swift; sourceTree = SOURCE_ROOT; };
+		597AF3FCE9E4FA81A7C2DB4A /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Swedish/InputStickKeyboardLayoutSvSEMac.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Swedish/InputStickKeyboardLayoutSvSEMac.m"; sourceTree = SOURCE_ROOT; };
+		5A4162E4E8F14F94717EA6CF /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Vietnamese/InputStickKeyboardLayoutVnVN.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Vietnamese/InputStickKeyboardLayoutVnVN.h"; sourceTree = SOURCE_ROOT; };
+		5A41D5548C1674113BC90588 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/German/InputStickKeyboardLayoutDeDE.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/German/InputStickKeyboardLayoutDeDE.h"; sourceTree = SOURCE_ROOT; };
+		5BA0454E2798933008AA6581 /* Vendor/InputStickCore/Connection/Packet/NSData+CRC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vendor/InputStickCore/Connection/Packet/NSData+CRC.h"; sourceTree = SOURCE_ROOT; };
+		5BE97AD0E1206287A3BDBB40 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/English/InputStickKeyboardLayoutEnUSIntMac.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/English/InputStickKeyboardLayoutEnUSIntMac.m"; sourceTree = SOURCE_ROOT; };
+		5D22D1E36C05152A2EE08EB6 /* Vendor/InputStickCore/HID/Keyboard/InputStickKeyboardLEDsState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Vendor/InputStickCore/HID/Keyboard/InputStickKeyboardLEDsState.h; sourceTree = SOURCE_ROOT; };
+		5D9F05B4B289A9715D75BC30 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Polish/InputStickKeyboardLayoutPlPLLinux.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Polish/InputStickKeyboardLayoutPlPLLinux.h"; sourceTree = SOURCE_ROOT; };
+		5EA85525D8DD5F56E502C211 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/English/InputStickKeyboardLayoutEnUSDvorak.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/English/InputStickKeyboardLayoutEnUSDvorak.m"; sourceTree = SOURCE_ROOT; };
+		5EC0F6FF4CF3891CF471869E /* Vendor/InputStickCore/Connection/Packet/InputStickPacketParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Vendor/InputStickCore/Connection/Packet/InputStickPacketParser.h; sourceTree = SOURCE_ROOT; };
+		5F4700A706CD61A66A086C53 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/German/InputStickKeyboardLayoutDeCHMac.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/German/InputStickKeyboardLayoutDeCHMac.m"; sourceTree = SOURCE_ROOT; };
+		601A7BADC3FC2BBEB559C827 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Norwegian/InputStickKeyboardLayoutNbNO.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Norwegian/InputStickKeyboardLayoutNbNO.m"; sourceTree = SOURCE_ROOT; };
+		61474C1B348E9AEA636DB138 /* Vendor/InputStickCore/Database/InputStickDeviceData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Vendor/InputStickCore/Database/InputStickDeviceData.h; sourceTree = SOURCE_ROOT; };
+		630B76A68C668A1AC7D8E8A7 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Italian/InputStickKeyboardLayoutItITMac.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Italian/InputStickKeyboardLayoutItITMac.h"; sourceTree = SOURCE_ROOT; };
+		633ED4EF6F00EBE9C740A171 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Czech/InputStickKeyboardLayoutCsCZMac.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Czech/InputStickKeyboardLayoutCsCZMac.h"; sourceTree = SOURCE_ROOT; };
+		634A4FA3B9B6B1E31A6FBE5D /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Czech/InputStickKeyboardLayoutCsCZQwertyMac.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Czech/InputStickKeyboardLayoutCsCZQwertyMac.m"; sourceTree = SOURCE_ROOT; };
+		63540FF74DB6821449B67A46 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/German/InputStickKeyboardLayoutDeDEMac.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/German/InputStickKeyboardLayoutDeDEMac.m"; sourceTree = SOURCE_ROOT; };
+		63E36B070AB6186BA49D9D51 /* Vendor/InputStickCore/Connection/InputStickConnectionManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Vendor/InputStickCore/Connection/InputStickConnectionManager.h; sourceTree = SOURCE_ROOT; };
+		6470D3D0D06873243662FFA7 /* Vendor/InputStickCore/Firmware Manager/InputStickHIDFirmwareManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Vendor/InputStickCore/Firmware Manager/InputStickHIDFirmwareManager.m"; sourceTree = SOURCE_ROOT; };
+		64E4F4A548680E64C09125D1 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/French/InputStickKeyboardLayoutFrFR.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/French/InputStickKeyboardLayoutFrFR.h"; sourceTree = SOURCE_ROOT; };
+		65F8D93CDDFEC1D8481B05B8 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Spanish/InputStickKeyboardLayoutEsES.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Spanish/InputStickKeyboardLayoutEsES.m"; sourceTree = SOURCE_ROOT; };
+		668D423E085B9556DFDAB879 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Slovak/InputStickKeyboardLayoutSkSKQwertyMac.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Slovak/InputStickKeyboardLayoutSkSKQwertyMac.h"; sourceTree = SOURCE_ROOT; };
+		6728BA5D8C516242B2C5D10F /* Vendor/InputStickCore/Database/InputStickDeviceDB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Vendor/InputStickCore/Database/InputStickDeviceDB.m; sourceTree = SOURCE_ROOT; };
+		67E3ECF2249F876A431A8E49 /* Vendor/InputStickCore/Connection/Packet/NSData+CRC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Vendor/InputStickCore/Connection/Packet/NSData+CRC.m"; sourceTree = SOURCE_ROOT; };
+		685D32340C93F32A7D494640 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Spanish/InputStickKeyboardLayoutEsESMac.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Spanish/InputStickKeyboardLayoutEsESMac.m"; sourceTree = SOURCE_ROOT; };
+		68F90E4341009621C5CBADA3 /* Vendor/InputStickCore/HID/HID Handlers/TouchScreen Handler/InputStickTouchScreenHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vendor/InputStickCore/HID/HID Handlers/TouchScreen Handler/InputStickTouchScreenHandler.h"; sourceTree = SOURCE_ROOT; };
+		6C30A913D4DB794CB48F6F18 /* Vendor/InputStickCore/HID/InputStickHIDTransactionBuffer+Protected.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vendor/InputStickCore/HID/InputStickHIDTransactionBuffer+Protected.h"; sourceTree = SOURCE_ROOT; };
+		6CCA2B60DAE2F42CFD990D2C /* Bridge/InputStickKVM-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridge/InputStickKVM-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		6CF8DEE0492492530D7B9EF4 /* Vendor/InputStickCore/HID/Keyboard/InputStickKeyLabels.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Vendor/InputStickCore/HID/Keyboard/InputStickKeyLabels.m; sourceTree = SOURCE_ROOT; };
+		6D14040BA94961949B9A6374 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Croatian/InputStickKeyboardLayoutHrHR.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Croatian/InputStickKeyboardLayoutHrHR.h"; sourceTree = SOURCE_ROOT; };
+		6E38408C7CF43F0079B420E7 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Vietnamese/InputStickKeyboardLayoutVnVN.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Vietnamese/InputStickKeyboardLayoutVnVN.m"; sourceTree = SOURCE_ROOT; };
+		6EDC3C02A0E04904003A9F53 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Croatian/InputStickKeyboardLayoutHrHRLinux.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Croatian/InputStickKeyboardLayoutHrHRLinux.h"; sourceTree = SOURCE_ROOT; };
+		6F46BFA9EDCD3E0F6CB45C3A /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Spanish/InputStickKeyboardLayoutEsESLinux.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Spanish/InputStickKeyboardLayoutEsESLinux.m"; sourceTree = SOURCE_ROOT; };
+		6F6C5B847F07BDDD9DE95AE9 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/French/InputStickKeyboardLayoutFrCA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/French/InputStickKeyboardLayoutFrCA.h"; sourceTree = SOURCE_ROOT; };
+		70735102567BA0A44B50EC0D /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/English/InputStickKeyboardLayoutEnUSMac.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/English/InputStickKeyboardLayoutEnUSMac.h"; sourceTree = SOURCE_ROOT; };
+		714C09E7195DF8674B85BC18 /* Vendor/InputStickCore/HID/HID Handlers/Gamepad Handler/InputStickGamepadHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vendor/InputStickCore/HID/HID Handlers/Gamepad Handler/InputStickGamepadHandler.h"; sourceTree = SOURCE_ROOT; };
+		714FA21390FAFF4D01484018 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Polish/InputStickKeyboardLayoutPlPLMac.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Polish/InputStickKeyboardLayoutPlPLMac.h"; sourceTree = SOURCE_ROOT; };
+		719BE5CDE3077E8B48B97F85 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Portuguese/InputStickKeyboardLayoutPtBRMac.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Portuguese/InputStickKeyboardLayoutPtBRMac.m"; sourceTree = SOURCE_ROOT; };
+		71EDA8B964A08FA15B01BC4D /* Vendor/InputStickCore/Notifications/NSNotificationCenter+InputStickStatusUpdate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Vendor/InputStickCore/Notifications/NSNotificationCenter+InputStickStatusUpdate.m"; sourceTree = SOURCE_ROOT; };
+		747112A765DC252EC3EA5830 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Russian/InputStickKeyboardLayoutRuRU.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Russian/InputStickKeyboardLayoutRuRU.m"; sourceTree = SOURCE_ROOT; };
+		757B6D05DFFCB13A29BC0ABA /* Vendor/InputStickCore/Utils/InputStickLog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Vendor/InputStickCore/Utils/InputStickLog.m; sourceTree = SOURCE_ROOT; };
+		75D0924565FF22358EE16A2D /* Vendor/InputStickCore/HID/HID Handlers/Consumer Handler/InputStickConsumerHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Vendor/InputStickCore/HID/HID Handlers/Consumer Handler/InputStickConsumerHandler.m"; sourceTree = SOURCE_ROOT; };
+		77429656401F791F71EE4644 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/French/InputStickKeyboardLayoutFrFR.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/French/InputStickKeyboardLayoutFrFR.m"; sourceTree = SOURCE_ROOT; };
+		774E1B871FB09F7D4A0B9588 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Hebrew/InputStickKeyboardLayoutHeILLinux.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Hebrew/InputStickKeyboardLayoutHeILLinux.h"; sourceTree = SOURCE_ROOT; };
+		785474A156DABBB05FC1545F /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/English/InputStickKeyboardLayoutEnGBLinux.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/English/InputStickKeyboardLayoutEnGBLinux.h"; sourceTree = SOURCE_ROOT; };
+		78603AE3DDA7AB72059BC254 /* App/InputStickKVMApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/InputStickKVMApp.swift; sourceTree = SOURCE_ROOT; };
+		788132B7D73A5701881A63FC /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Finnish/InputStickKeyboardLayoutFiFILinux.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Finnish/InputStickKeyboardLayoutFiFILinux.h"; sourceTree = SOURCE_ROOT; };
+		79F896558B0B37EA24416E31 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Hebrew/InputStickKeyboardLayoutHeILMac.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Hebrew/InputStickKeyboardLayoutHeILMac.m"; sourceTree = SOURCE_ROOT; };
+		7B14AF8DFDA0BD2F6F9B7585 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/French/InputStickKeyboardLayoutFrBEMac.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/French/InputStickKeyboardLayoutFrBEMac.h"; sourceTree = SOURCE_ROOT; };
+		7B199710AB35652D71CD9370 /* Vendor/InputStickCore/InputStickAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Vendor/InputStickCore/InputStickAPI.h; sourceTree = SOURCE_ROOT; };
+		7B4C1F464974027A2159ED64 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Czech/InputStickKeyboardLayoutCsCZProgrammers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Czech/InputStickKeyboardLayoutCsCZProgrammers.h"; sourceTree = SOURCE_ROOT; };
+		7C07460943BAA0E914A213E4 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Italian/InputStickKeyboardLayoutItIT.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Italian/InputStickKeyboardLayoutItIT.h"; sourceTree = SOURCE_ROOT; };
+		7D405C2613531C099D2D3EF9 /* Vendor/InputStickCore/HID/HID Handlers/Mouse Handler/InputStickMouseHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Vendor/InputStickCore/HID/HID Handlers/Mouse Handler/InputStickMouseHandler.m"; sourceTree = SOURCE_ROOT; };
+		7E1F6A4CC2CAF35FA8E593A3 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/German/InputStickKeyboardLayoutDeCHMac.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/German/InputStickKeyboardLayoutDeCHMac.h"; sourceTree = SOURCE_ROOT; };
+		7ED5151DD2489927D6506DB7 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Czech/InputStickKeyboardLayoutCsCZQwertyLinux.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Czech/InputStickKeyboardLayoutCsCZQwertyLinux.h"; sourceTree = SOURCE_ROOT; };
+		8047BEADA7878CE96D92DAD5 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/English/InputStickKeyboardLayoutEnUSInt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/English/InputStickKeyboardLayoutEnUSInt.h"; sourceTree = SOURCE_ROOT; };
+		818D6DC4E516B78109E5703C /* Bridge/KVMTransport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bridge/KVMTransport.h; sourceTree = SOURCE_ROOT; };
+		81DFF9FF77713128BA8E7763 /* Vendor/InputStickCore/Firmware Manager/InputStickHIDFirmwareManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vendor/InputStickCore/Firmware Manager/InputStickHIDFirmwareManager.h"; sourceTree = SOURCE_ROOT; };
+		827E8A9AB25F0F1E0872BCAB /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/German/InputStickKeyboardLayoutDeDELinux.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/German/InputStickKeyboardLayoutDeDELinux.h"; sourceTree = SOURCE_ROOT; };
+		832B15A1B6B1A25BE1A5CDCF /* Vendor/InputStickCore/Notifications/NSNotificationCenter+InputStickPacket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vendor/InputStickCore/Notifications/NSNotificationCenter+InputStickPacket.h"; sourceTree = SOURCE_ROOT; };
+		83558DF159DDC9D7BCBBD286 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Czech/InputStickKeyboardLayoutCsCZQwerty.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Czech/InputStickKeyboardLayoutCsCZQwerty.h"; sourceTree = SOURCE_ROOT; };
+		84354BEC9D86B8568ABA5543 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/German/InputStickKeyboardLayoutDeCH.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/German/InputStickKeyboardLayoutDeCH.h"; sourceTree = SOURCE_ROOT; };
+		84A901E989D790E25950824F /* Vendor/InputStickCore/Utils/InputStickPreferencesHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Vendor/InputStickCore/Utils/InputStickPreferencesHelper.m; sourceTree = SOURCE_ROOT; };
+		8581EC77F342B34D7DF5AEB1 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Hebrew/InputStickKeyboardLayoutHeIL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Hebrew/InputStickKeyboardLayoutHeIL.h"; sourceTree = SOURCE_ROOT; };
+		8668B2F6739287D72B02C85E /* Vendor/InputStickCore/HID/HID Handlers/Keyboard Handler/InputStickKeyboardHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Vendor/InputStickCore/HID/HID Handlers/Keyboard Handler/InputStickKeyboardHandler.m"; sourceTree = SOURCE_ROOT; };
+		8673F4F7E3A65499B5DA1B7B /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Greek/InputStickKeyboardLayoutElGRMac.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Greek/InputStickKeyboardLayoutElGRMac.h"; sourceTree = SOURCE_ROOT; };
+		86EE239DCFFA84536B41C607 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Portuguese/InputStickKeyboardLayoutPtPTLinux.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Portuguese/InputStickKeyboardLayoutPtPTLinux.m"; sourceTree = SOURCE_ROOT; };
+		86EF61CDE08080504CF73DCD /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Portuguese/InputStickKeyboardLayoutPtBRMac.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Portuguese/InputStickKeyboardLayoutPtBRMac.h"; sourceTree = SOURCE_ROOT; };
+		897C3D93A9808B36B4ED3F17 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/French/InputStickKeyboardLayoutFrFRMac.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/French/InputStickKeyboardLayoutFrFRMac.m"; sourceTree = SOURCE_ROOT; };
+		8D2BF5B376366D08902977E1 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Portuguese/InputStickKeyboardLayoutPtBR.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Portuguese/InputStickKeyboardLayoutPtBR.m"; sourceTree = SOURCE_ROOT; };
+		8D6137A63FC509B5667ECC30 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Russian/InputStickKeyboardLayoutRuRULinux.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Russian/InputStickKeyboardLayoutRuRULinux.m"; sourceTree = SOURCE_ROOT; };
+		8E146FE476C98DC98102379C /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Russian/InputStickKeyboardLayoutRuRULinux.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Russian/InputStickKeyboardLayoutRuRULinux.h"; sourceTree = SOURCE_ROOT; };
+		8FA60AD5BC6A73306AC11B30 /* Vendor/InputStickCore/Connection/Packet/InputStickTxPacket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Vendor/InputStickCore/Connection/Packet/InputStickTxPacket.h; sourceTree = SOURCE_ROOT; };
+		90E9496AFC7B1F179FD8EB8E /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Dutch/InputStickKeyboardLayoutNlNLMac.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Dutch/InputStickKeyboardLayoutNlNLMac.m"; sourceTree = SOURCE_ROOT; };
+		9108FC0E1599D534B44905F2 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Slovak/InputStickKeyboardLayoutSkSKMac.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Slovak/InputStickKeyboardLayoutSkSKMac.m"; sourceTree = SOURCE_ROOT; };
+		94471107746246710D3F2893 /* Vendor/InputStickCore/HID/InputStickHIDTransaction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Vendor/InputStickCore/HID/InputStickHIDTransaction.m; sourceTree = SOURCE_ROOT; };
+		94C8FD8146513BA037D4AC6C /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Russian/InputStickKeyboardLayoutRuRU.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Russian/InputStickKeyboardLayoutRuRU.h"; sourceTree = SOURCE_ROOT; };
+		95632056F9697D810D00E497 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/English/InputStickKeyboardLayoutEnGBLinux.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/English/InputStickKeyboardLayoutEnGBLinux.m"; sourceTree = SOURCE_ROOT; };
+		9BC3A0C5121CB9F952DEFF8C /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Czech/InputStickKeyboardLayoutCsCZLinux.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Czech/InputStickKeyboardLayoutCsCZLinux.h"; sourceTree = SOURCE_ROOT; };
+		9C4BB1C86D6D3160378AC487 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Portuguese/InputStickKeyboardLayoutPtPT.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Portuguese/InputStickKeyboardLayoutPtPT.m"; sourceTree = SOURCE_ROOT; };
+		9CA3D4B877ED1B52490BEE11 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/InputStickKeyboardLayoutUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/InputStickKeyboardLayoutUtils.m"; sourceTree = SOURCE_ROOT; };
+		9CF587830DE240A27A053364 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Slovak/InputStickKeyboardLayoutSkSK.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Slovak/InputStickKeyboardLayoutSkSK.m"; sourceTree = SOURCE_ROOT; };
+		9D11DC9830B4DFEA009AD323 /* InputStickKVM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = InputStickKVM.png; sourceTree = "<group>"; };
+		9E014D4F1898565FAA431E9C /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/English/InputStickKeyboardLayoutEnUSIntMac.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/English/InputStickKeyboardLayoutEnUSIntMac.h"; sourceTree = SOURCE_ROOT; };
+		9E57B2BDA732C328E6B1149B /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/French/InputStickKeyboardLayoutFrCH.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/French/InputStickKeyboardLayoutFrCH.m"; sourceTree = SOURCE_ROOT; };
+		9F0BF04A22227B991F794B6D /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/French/InputStickKeyboardLayoutFrCALinux.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/French/InputStickKeyboardLayoutFrCALinux.m"; sourceTree = SOURCE_ROOT; };
+		9F5A394AF99D2ECFBAA801F0 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/French/InputStickKeyboardLayoutFrCHLinux.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/French/InputStickKeyboardLayoutFrCHLinux.h"; sourceTree = SOURCE_ROOT; };
+		A0368266BDE4949C40B614A3 /* Vendor/InputStickCore/HID/InputStickHIDTransaction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Vendor/InputStickCore/HID/InputStickHIDTransaction.h; sourceTree = SOURCE_ROOT; };
+		A2F5C75D42731CD7F4D96AC0 /* Vendor/InputStickCore/HID/Keyboard/InputStickKeyLabels.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Vendor/InputStickCore/HID/Keyboard/InputStickKeyLabels.h; sourceTree = SOURCE_ROOT; };
+		A34C1307939E73B16AF1F703 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Hungarian/InputStickKeyboardLayoutHuHULinux.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Hungarian/InputStickKeyboardLayoutHuHULinux.h"; sourceTree = SOURCE_ROOT; };
+		A3B30BA313EE66D2C7EB7271 /* Vendor/InputStickCore/InputStickManager+Protected.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vendor/InputStickCore/InputStickManager+Protected.h"; sourceTree = SOURCE_ROOT; };
+		A3C77968031D9F67E6CFED46 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/French/InputStickKeyboardLayoutFrCALinux.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/French/InputStickKeyboardLayoutFrCALinux.h"; sourceTree = SOURCE_ROOT; };
+		A4453A4817106C05E6577ED7 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Hebrew/InputStickKeyboardLayoutHeILMac.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Hebrew/InputStickKeyboardLayoutHeILMac.h"; sourceTree = SOURCE_ROOT; };
+		A46F5A681340AAF42B14C2E3 /* Vendor/InputStickCore/Connection/Packet/InputStickPacket.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Vendor/InputStickCore/Connection/Packet/InputStickPacket.m; sourceTree = SOURCE_ROOT; };
+		A4C7D1378053E85321B209B0 /* Vendor/InputStickCore/HID/Keyboard/InputStickKeyboardLEDsState.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Vendor/InputStickCore/HID/Keyboard/InputStickKeyboardLEDsState.m; sourceTree = SOURCE_ROOT; };
+		A5D9BB48FBA63657EEC1AA1A /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Norwegian/InputStickKeyboardLayoutNbNOMac.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Norwegian/InputStickKeyboardLayoutNbNOMac.h"; sourceTree = SOURCE_ROOT; };
+		A7CB68151FD00DAA758A8D43 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/English/InputStickKeyboardLayoutEnUSLinux.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/English/InputStickKeyboardLayoutEnUSLinux.m"; sourceTree = SOURCE_ROOT; };
+		A81AA07ECAD3D1301ACE568F /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Greek/InputStickKeyboardLayoutElGRLinux.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Greek/InputStickKeyboardLayoutElGRLinux.h"; sourceTree = SOURCE_ROOT; };
+		A84BC4EB9FABDF68F79F868D /* Vendor/InputStickCore/HID/HID Handlers/InputStickHIDHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vendor/InputStickCore/HID/HID Handlers/InputStickHIDHandler.h"; sourceTree = SOURCE_ROOT; };
+		A943EF771AB0E251EA8F9F67 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/German/InputStickKeyboardLayoutDeDELinux.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/German/InputStickKeyboardLayoutDeDELinux.m"; sourceTree = SOURCE_ROOT; };
+		AA378ADDBC17CE650622A0BD /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Italian/InputStickKeyboardLayoutItIT.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Italian/InputStickKeyboardLayoutItIT.m"; sourceTree = SOURCE_ROOT; };
+		ABE57C348504C492A7248FA8 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/French/InputStickKeyboardLayoutFrBELinux.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/French/InputStickKeyboardLayoutFrBELinux.h"; sourceTree = SOURCE_ROOT; };
+		AFA547AC028320623894917A /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Croatian/InputStickKeyboardLayoutHrHR.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Croatian/InputStickKeyboardLayoutHrHR.m"; sourceTree = SOURCE_ROOT; };
+		B083BC65F1FB53C884DC4120 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Portuguese/InputStickKeyboardLayoutPtPTMac.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Portuguese/InputStickKeyboardLayoutPtPTMac.m"; sourceTree = SOURCE_ROOT; };
+		B149E571F1BEFFC3CE9BD635 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Slovak/InputStickKeyboardLayoutSkSKQwertyLinux.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Slovak/InputStickKeyboardLayoutSkSKQwertyLinux.h"; sourceTree = SOURCE_ROOT; };
+		B2EADA90D4516D1C02C5860E /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Hungarian/InputStickKeyboardLayoutHuHU.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Hungarian/InputStickKeyboardLayoutHuHU.m"; sourceTree = SOURCE_ROOT; };
+		B3054BB639E0E93C04E233A0 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/InputStickKeyboardLayoutUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/InputStickKeyboardLayoutUtils.h"; sourceTree = SOURCE_ROOT; };
+		B3FA3ABFF181A20A97C918A9 /* Vendor/InputStickCore/Utils/InputStickConst.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Vendor/InputStickCore/Utils/InputStickConst.m; sourceTree = SOURCE_ROOT; };
+		B459B529FE5C03E62F6E2C39 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/French/InputStickKeyboardLayoutFrCHLinux.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/French/InputStickKeyboardLayoutFrCHLinux.m"; sourceTree = SOURCE_ROOT; };
+		B584E52DBF166504BA5883E6 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/English/InputStickKeyboardLayoutEnUSInt.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/English/InputStickKeyboardLayoutEnUSInt.m"; sourceTree = SOURCE_ROOT; };
+		B6C24C9475621FF5E1CFDB44 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/English/InputStickKeyboardLayoutEnUS.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/English/InputStickKeyboardLayoutEnUS.m"; sourceTree = SOURCE_ROOT; };
+		B773CB38A283B6E9A8083BB0 /* Vendor/InputStickCore/Firmware Manager/InputStickFirmwareManagerProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vendor/InputStickCore/Firmware Manager/InputStickFirmwareManagerProtocol.h"; sourceTree = SOURCE_ROOT; };
+		BA68F95EA44D19C5104639B4 /* App/KVMModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/KVMModel.swift; sourceTree = SOURCE_ROOT; };
+		BD7DFD4620D94E939B899A5C /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/German/InputStickKeyboardLayoutDeDEMac.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/German/InputStickKeyboardLayoutDeDEMac.h"; sourceTree = SOURCE_ROOT; };
+		C0439D365DE2A7FD47AB027C /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Danish/InputStickKeyboardLayoutDaDKLinux.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Danish/InputStickKeyboardLayoutDaDKLinux.m"; sourceTree = SOURCE_ROOT; };
+		C21FBFA4E1297C031DA94F4A /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Swedish/InputStickKeyboardLayoutSvSELinux.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Swedish/InputStickKeyboardLayoutSvSELinux.m"; sourceTree = SOURCE_ROOT; };
+		C37C2B079CF3BE94BFDDF2E6 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Hungarian/InputStickKeyboardLayoutHuHUMac.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Hungarian/InputStickKeyboardLayoutHuHUMac.m"; sourceTree = SOURCE_ROOT; };
+		C3F47CE783591C3A4CA90C05 /* Vendor/InputStickCore/HID/HID Handlers/Mouse Handler/InputStickMouseHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vendor/InputStickCore/HID/HID Handlers/Mouse Handler/InputStickMouseHandler.h"; sourceTree = SOURCE_ROOT; };
+		C4F60D7CE2727B46122756E0 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Spanish/InputStickKeyboardLayoutEsESLinux.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Spanish/InputStickKeyboardLayoutEsESLinux.h"; sourceTree = SOURCE_ROOT; };
+		C677D16087ADB2BF243D8C9B /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/French/InputStickKeyboardLayoutFrBE.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/French/InputStickKeyboardLayoutFrBE.m"; sourceTree = SOURCE_ROOT; };
+		C80018C0A80DCF0F657F2F1B /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/French/InputStickKeyboardLayoutFrFRLinux.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/French/InputStickKeyboardLayoutFrFRLinux.h"; sourceTree = SOURCE_ROOT; };
+		C813C72DF19F4EC5CA1291DD /* Vendor/InputStickCore/Utils/InputStickConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Vendor/InputStickCore/Utils/InputStickConst.h; sourceTree = SOURCE_ROOT; };
+		C871ABE86B27B5D9017927F0 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Finnish/InputStickKeyboardLayoutFiFILinux.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Finnish/InputStickKeyboardLayoutFiFILinux.m"; sourceTree = SOURCE_ROOT; };
+		C9AC66B6F31B1C4D3143A4EC /* Vendor/InputStickCore/HID/InputStickHIDBuffersManager+Protected.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vendor/InputStickCore/HID/InputStickHIDBuffersManager+Protected.h"; sourceTree = SOURCE_ROOT; };
+		CCD224E5B8BB0D4F3D5349FE /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Swedish/InputStickKeyboardLayoutSvSE.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Swedish/InputStickKeyboardLayoutSvSE.h"; sourceTree = SOURCE_ROOT; };
+		CD8FB097E6AF7C47D695156A /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Swedish/InputStickKeyboardLayoutSvSELinux.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Swedish/InputStickKeyboardLayoutSvSELinux.h"; sourceTree = SOURCE_ROOT; };
+		D027036739E355C4FFBA36F2 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/English/InputStickKeyboardLayoutEnGB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/English/InputStickKeyboardLayoutEnGB.m"; sourceTree = SOURCE_ROOT; };
+		D1B284949FC693B0B8175268 /* Vendor/InputStickCore/HID/HID Handlers/Keyboard Handler/InputStickKeyboardHandler+Protected.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vendor/InputStickCore/HID/HID Handlers/Keyboard Handler/InputStickKeyboardHandler+Protected.h"; sourceTree = SOURCE_ROOT; };
+		D30D96C90DB3D94F18800E00 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Greek/InputStickKeyboardLayoutElGRLinux.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Greek/InputStickKeyboardLayoutElGRLinux.m"; sourceTree = SOURCE_ROOT; };
+		D3CD70C75CBE1DD96F0B02D4 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Russian/InputStickKeyboardLayoutRuRUMac.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Russian/InputStickKeyboardLayoutRuRUMac.h"; sourceTree = SOURCE_ROOT; };
+		D411DFA74FA677E9B1576EC9 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Czech/InputStickKeyboardLayoutCsCZ.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Czech/InputStickKeyboardLayoutCsCZ.h"; sourceTree = SOURCE_ROOT; };
+		D5B9F4ED3BAC6D9EF33B8A71 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Portuguese/InputStickKeyboardLayoutPtPTMac.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Portuguese/InputStickKeyboardLayoutPtPTMac.h"; sourceTree = SOURCE_ROOT; };
+		D800FFC8D657E39997C56E3A /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Norwegian/InputStickKeyboardLayoutNbNOLinux.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Norwegian/InputStickKeyboardLayoutNbNOLinux.m"; sourceTree = SOURCE_ROOT; };
+		D8EC396BD9D49071B10DEABB /* Vendor/InputStickCore/Database/InputStickDeviceData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Vendor/InputStickCore/Database/InputStickDeviceData.m; sourceTree = SOURCE_ROOT; };
+		D9266BB193A2D64392F7B382 /* Vendor/InputStickCore/InputStickManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Vendor/InputStickCore/InputStickManager.m; sourceTree = SOURCE_ROOT; };
+		DA28820E80CB92F24939F4F2 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/German/InputStickKeyboardLayoutDeCHLinux.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/German/InputStickKeyboardLayoutDeCHLinux.m"; sourceTree = SOURCE_ROOT; };
+		DB30F2F5EBFEE65E402B33E8 /* Vendor/InputStickCore/Utils/InputStickLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Vendor/InputStickCore/Utils/InputStickLog.h; sourceTree = SOURCE_ROOT; };
+		DB601E055296F99B7328B1C8 /* Vendor/InputStickCore/Connection/InputStickPeripheralInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Vendor/InputStickCore/Connection/InputStickPeripheralInfo.h; sourceTree = SOURCE_ROOT; };
+		DC4CD8A59FF1970830878771 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/German/InputStickKeyboardLayoutDeCH.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/German/InputStickKeyboardLayoutDeCH.m"; sourceTree = SOURCE_ROOT; };
+		DDD84CB38639B24255A9ACD4 /* Vendor/InputStickCore/Connection/Packet/InputStickPacket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Vendor/InputStickCore/Connection/Packet/InputStickPacket.h; sourceTree = SOURCE_ROOT; };
+		DE73FA77EC6BCA166D5FD74D /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Polish/InputStickKeyboardLayoutPlPLMac.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Polish/InputStickKeyboardLayoutPlPLMac.m"; sourceTree = SOURCE_ROOT; };
+		DF4978FC4D4FED96A48F7DF5 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Swedish/InputStickKeyboardLayoutSvSE.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Swedish/InputStickKeyboardLayoutSvSE.m"; sourceTree = SOURCE_ROOT; };
+		DFD6F84A03CEEC1844F315C1 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Finnish/InputStickKeyboardLayoutFiFIMac.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Finnish/InputStickKeyboardLayoutFiFIMac.m"; sourceTree = SOURCE_ROOT; };
+		E0952C0400797098930C6B6B /* Vendor/InputStickCore/Notifications/NSNotificationCenter+InputStickStatusUpdate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vendor/InputStickCore/Notifications/NSNotificationCenter+InputStickStatusUpdate.h"; sourceTree = SOURCE_ROOT; };
+		E43EF7EF872F482FAB071D10 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Greek/InputStickKeyboardLayoutElGR.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Greek/InputStickKeyboardLayoutElGR.m"; sourceTree = SOURCE_ROOT; };
+		E4B10DD5D7AE3360C2FF2868 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/French/InputStickKeyboardLayoutFrCAMac.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/French/InputStickKeyboardLayoutFrCAMac.h"; sourceTree = SOURCE_ROOT; };
+		E4F27CC4123959AF879A906C /* Vendor/InputStickCore/Security/InputStickEncryptionManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Vendor/InputStickCore/Security/InputStickEncryptionManager.h; sourceTree = SOURCE_ROOT; };
+		E6F52427DE5A1F59D7932DD5 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Polish/InputStickKeyboardLayoutPlPLLinux.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Polish/InputStickKeyboardLayoutPlPLLinux.m"; sourceTree = SOURCE_ROOT; };
+		E76BF60E95DB124CF5DEB949 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Norwegian/InputStickKeyboardLayoutNbNOLinux.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Norwegian/InputStickKeyboardLayoutNbNOLinux.h"; sourceTree = SOURCE_ROOT; };
+		E86F1AD0E6625AE0FBFC6C01 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/English/InputStickKeyboardLayoutEnGBMac.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/English/InputStickKeyboardLayoutEnGBMac.m"; sourceTree = SOURCE_ROOT; };
+		E9299E0AF56C8068A4CE8D78 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Slovak/InputStickKeyboardLayoutSkSKLinux.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Slovak/InputStickKeyboardLayoutSkSKLinux.m"; sourceTree = SOURCE_ROOT; };
+		E9B0EFE9ED1CA768575D3E23 /* Vendor/InputStickCore/Notifications/NSNotificationCenter+InputStickPeripheralScan.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vendor/InputStickCore/Notifications/NSNotificationCenter+InputStickPeripheralScan.h"; sourceTree = SOURCE_ROOT; };
+		EAE171A07184BE1E4940141F /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Slovak/InputStickKeyboardLayoutSkSKMac.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Slovak/InputStickKeyboardLayoutSkSKMac.h"; sourceTree = SOURCE_ROOT; };
+		ED7479C0E7190AF2BECBFA70 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/German/InputStickKeyboardLayoutDeCHLinux.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/German/InputStickKeyboardLayoutDeCHLinux.h"; sourceTree = SOURCE_ROOT; };
+		EE0C760FAD6B225F9A132584 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/InputStickKeyboardLayoutProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/InputStickKeyboardLayoutProtocol.h"; sourceTree = SOURCE_ROOT; };
+		EE4EDD3A1B0C20BD523031D6 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Polish/InputStickKeyboardLayoutPlPL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Polish/InputStickKeyboardLayoutPlPL.m"; sourceTree = SOURCE_ROOT; };
+		EED4DA6BB0FA29C6E195E773 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Slovak/InputStickKeyboardLayoutSkSKQwerty.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Slovak/InputStickKeyboardLayoutSkSKQwerty.h"; sourceTree = SOURCE_ROOT; };
+		EEE24B6BE9FFBD8A67FCA604 /* Vendor/InputStickCore/HID/InputStickHIDBuffersManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Vendor/InputStickCore/HID/InputStickHIDBuffersManager.h; sourceTree = SOURCE_ROOT; };
+		EF3C99E439763EA791D35874 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Norwegian/InputStickKeyboardLayoutNbNO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Norwegian/InputStickKeyboardLayoutNbNO.h"; sourceTree = SOURCE_ROOT; };
+		EFB3433153D2B31F4F4CBD99 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Norwegian/InputStickKeyboardLayoutNbNOMac.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Norwegian/InputStickKeyboardLayoutNbNOMac.m"; sourceTree = SOURCE_ROOT; };
+		F06F4E53CA1B809B8EACF12B /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Spanish/InputStickKeyboardLayoutEsES.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Spanish/InputStickKeyboardLayoutEsES.h"; sourceTree = SOURCE_ROOT; };
+		F074E8296A38D449C9D3CBA3 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Japanese/InputStickKeyboardLayoutJpJP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Japanese/InputStickKeyboardLayoutJpJP.h"; sourceTree = SOURCE_ROOT; };
+		F0A671D999C2A1CC64994E70 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Portuguese/InputStickKeyboardLayoutPtPTLinux.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Portuguese/InputStickKeyboardLayoutPtPTLinux.h"; sourceTree = SOURCE_ROOT; };
+		F1C6C57EAE85BFA109859A66 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Dutch/InputStickKeyboardLayoutNlNL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Dutch/InputStickKeyboardLayoutNlNL.h"; sourceTree = SOURCE_ROOT; };
+		F328BA228113940E4D3AE04A /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/French/InputStickKeyboardLayoutFrCH.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/French/InputStickKeyboardLayoutFrCH.h"; sourceTree = SOURCE_ROOT; };
+		F32B04715D5C08999542A091 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/English/InputStickKeyboardLayoutEnGBMac.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/English/InputStickKeyboardLayoutEnGBMac.h"; sourceTree = SOURCE_ROOT; };
+		F4BD085AB3BCD8293E547310 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Greek/InputStickKeyboardLayoutElGR.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Greek/InputStickKeyboardLayoutElGR.h"; sourceTree = SOURCE_ROOT; };
+		F5A90405BF6B2BAF1F7A6709 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Slovak/InputStickKeyboardLayoutSkSKQwertyLinux.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Slovak/InputStickKeyboardLayoutSkSKQwertyLinux.m"; sourceTree = SOURCE_ROOT; };
+		F63C73B7A624FDBA4E4AEC19 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Danish/InputStickKeyboardLayoutDaDKMac.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Danish/InputStickKeyboardLayoutDaDKMac.m"; sourceTree = SOURCE_ROOT; };
+		F90DF4950897EEC41DD5E221 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Finnish/InputStickKeyboardLayoutFiFI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Finnish/InputStickKeyboardLayoutFiFI.m"; sourceTree = SOURCE_ROOT; };
+		F90F33BAF2691CCD6238E441 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Dutch/InputStickKeyboardLayoutNlNL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Dutch/InputStickKeyboardLayoutNlNL.m"; sourceTree = SOURCE_ROOT; };
+		F9737B677258D69A2309FF43 /* Vendor/InputStickCore/InputStickManagerDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Vendor/InputStickCore/InputStickManagerDelegate.h; sourceTree = SOURCE_ROOT; };
+		F9E7D01C4BB7E40EC243D99E /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Portuguese/InputStickKeyboardLayoutPtPT.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Portuguese/InputStickKeyboardLayoutPtPT.h"; sourceTree = SOURCE_ROOT; };
+		FC4399059BADA7475B6BA176 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Finnish/InputStickKeyboardLayoutFiFIMac.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Finnish/InputStickKeyboardLayoutFiFIMac.h"; sourceTree = SOURCE_ROOT; };
+		FD82A06BEEAEC75271A3CDC1 /* Vendor/InputStickCore/Database/InputStickDeviceDB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Vendor/InputStickCore/Database/InputStickDeviceDB.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7561BFB015D8F536760CB671 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2DC2F17A72A14E54E117EF33 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				63E36B070AB6186BA49D9D51 /* Vendor/InputStickCore/Connection/InputStickConnectionManager.h */,
+				178D31240517A4EA254353E9 /* Vendor/InputStickCore/Connection/InputStickConnectionManager.m */,
+				DB601E055296F99B7328B1C8 /* Vendor/InputStickCore/Connection/InputStickPeripheralInfo.h */,
+				2801DBEDCFC533458C128B41 /* Vendor/InputStickCore/Connection/InputStickPeripheralInfo.m */,
+				DDD84CB38639B24255A9ACD4 /* Vendor/InputStickCore/Connection/Packet/InputStickPacket.h */,
+				A46F5A681340AAF42B14C2E3 /* Vendor/InputStickCore/Connection/Packet/InputStickPacket.m */,
+				5EC0F6FF4CF3891CF471869E /* Vendor/InputStickCore/Connection/Packet/InputStickPacketParser.h */,
+				0A4D5ECB0994B9FCAD0D88D7 /* Vendor/InputStickCore/Connection/Packet/InputStickPacketParser.m */,
+				57A1C202D498E925FC07D758 /* Vendor/InputStickCore/Connection/Packet/InputStickRxPacket+FirmwareInfo.h */,
+				0BA6EF45CB280B756901D22E /* Vendor/InputStickCore/Connection/Packet/InputStickRxPacket+FirmwareInfo.m */,
+				0A511183E06A432247A2CE85 /* Vendor/InputStickCore/Connection/Packet/InputStickRxPacket.h */,
+				348837BAC3E6D706DDFD12B8 /* Vendor/InputStickCore/Connection/Packet/InputStickRxPacket.m */,
+				8FA60AD5BC6A73306AC11B30 /* Vendor/InputStickCore/Connection/Packet/InputStickTxPacket.h */,
+				4CF274A1683FE49EC3A9CB60 /* Vendor/InputStickCore/Connection/Packet/InputStickTxPacket.m */,
+				5BA0454E2798933008AA6581 /* Vendor/InputStickCore/Connection/Packet/NSData+CRC.h */,
+				67E3ECF2249F876A431A8E49 /* Vendor/InputStickCore/Connection/Packet/NSData+CRC.m */,
+				FD82A06BEEAEC75271A3CDC1 /* Vendor/InputStickCore/Database/InputStickDeviceDB.h */,
+				6728BA5D8C516242B2C5D10F /* Vendor/InputStickCore/Database/InputStickDeviceDB.m */,
+				61474C1B348E9AEA636DB138 /* Vendor/InputStickCore/Database/InputStickDeviceData.h */,
+				D8EC396BD9D49071B10DEABB /* Vendor/InputStickCore/Database/InputStickDeviceData.m */,
+				B773CB38A283B6E9A8083BB0 /* Vendor/InputStickCore/Firmware Manager/InputStickFirmwareManagerProtocol.h */,
+				81DFF9FF77713128BA8E7763 /* Vendor/InputStickCore/Firmware Manager/InputStickHIDFirmwareManager.h */,
+				6470D3D0D06873243662FFA7 /* Vendor/InputStickCore/Firmware Manager/InputStickHIDFirmwareManager.m */,
+				56761B4F5C7D7F6B335E027B /* Vendor/InputStickCore/HID/HID Handlers/Consumer Handler/InputStickConsumerHandler.h */,
+				75D0924565FF22358EE16A2D /* Vendor/InputStickCore/HID/HID Handlers/Consumer Handler/InputStickConsumerHandler.m */,
+				714C09E7195DF8674B85BC18 /* Vendor/InputStickCore/HID/HID Handlers/Gamepad Handler/InputStickGamepadHandler.h */,
+				3BF6FE4EDE866A0BDFC20845 /* Vendor/InputStickCore/HID/HID Handlers/Gamepad Handler/InputStickGamepadHandler.m */,
+				A84BC4EB9FABDF68F79F868D /* Vendor/InputStickCore/HID/HID Handlers/InputStickHIDHandler.h */,
+				D1B284949FC693B0B8175268 /* Vendor/InputStickCore/HID/HID Handlers/Keyboard Handler/InputStickKeyboardHandler+Protected.h */,
+				4EBE8E75D80A45A83072C7BA /* Vendor/InputStickCore/HID/HID Handlers/Keyboard Handler/InputStickKeyboardHandler.h */,
+				8668B2F6739287D72B02C85E /* Vendor/InputStickCore/HID/HID Handlers/Keyboard Handler/InputStickKeyboardHandler.m */,
+				C3F47CE783591C3A4CA90C05 /* Vendor/InputStickCore/HID/HID Handlers/Mouse Handler/InputStickMouseHandler.h */,
+				7D405C2613531C099D2D3EF9 /* Vendor/InputStickCore/HID/HID Handlers/Mouse Handler/InputStickMouseHandler.m */,
+				68F90E4341009621C5CBADA3 /* Vendor/InputStickCore/HID/HID Handlers/TouchScreen Handler/InputStickTouchScreenHandler.h */,
+				374BC54DB752FA4C87AE537F /* Vendor/InputStickCore/HID/HID Handlers/TouchScreen Handler/InputStickTouchScreenHandler.m */,
+				C9AC66B6F31B1C4D3143A4EC /* Vendor/InputStickCore/HID/InputStickHIDBuffersManager+Protected.h */,
+				EEE24B6BE9FFBD8A67FCA604 /* Vendor/InputStickCore/HID/InputStickHIDBuffersManager.h */,
+				553A7D722B4ED7A4D7856493 /* Vendor/InputStickCore/HID/InputStickHIDBuffersManager.m */,
+				307C0C50D1DD74A378937C29 /* Vendor/InputStickCore/HID/InputStickHIDBuffersState.h */,
+				516E83ECA48F2FBD4B2E98CD /* Vendor/InputStickCore/HID/InputStickHIDBuffersState.m */,
+				04E716A85C7234A0BA9382D2 /* Vendor/InputStickCore/HID/InputStickHIDReport.h */,
+				0097E2E464FF78186EA71A57 /* Vendor/InputStickCore/HID/InputStickHIDReport.m */,
+				A0368266BDE4949C40B614A3 /* Vendor/InputStickCore/HID/InputStickHIDTransaction.h */,
+				94471107746246710D3F2893 /* Vendor/InputStickCore/HID/InputStickHIDTransaction.m */,
+				6C30A913D4DB794CB48F6F18 /* Vendor/InputStickCore/HID/InputStickHIDTransactionBuffer+Protected.h */,
+				57AB699CD6C772F9A4072C71 /* Vendor/InputStickCore/HID/InputStickHIDTransactionBuffer.h */,
+				2B2DD92EFD331C3779F2B316 /* Vendor/InputStickCore/HID/InputStickHIDTransactionBuffer.m */,
+				A2F5C75D42731CD7F4D96AC0 /* Vendor/InputStickCore/HID/Keyboard/InputStickKeyLabels.h */,
+				6CF8DEE0492492530D7B9EF4 /* Vendor/InputStickCore/HID/Keyboard/InputStickKeyLabels.m */,
+				4B43D3C097707DC852BBD0E9 /* Vendor/InputStickCore/HID/Keyboard/InputStickKeyboardKeyModel.h */,
+				4395DF579416425A4FF6BF54 /* Vendor/InputStickCore/HID/Keyboard/InputStickKeyboardKeyModel.m */,
+				5D22D1E36C05152A2EE08EB6 /* Vendor/InputStickCore/HID/Keyboard/InputStickKeyboardLEDsState.h */,
+				A4C7D1378053E85321B209B0 /* Vendor/InputStickCore/HID/Keyboard/InputStickKeyboardLEDsState.m */,
+				6D14040BA94961949B9A6374 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Croatian/InputStickKeyboardLayoutHrHR.h */,
+				AFA547AC028320623894917A /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Croatian/InputStickKeyboardLayoutHrHR.m */,
+				6EDC3C02A0E04904003A9F53 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Croatian/InputStickKeyboardLayoutHrHRLinux.h */,
+				084711D9B032620B739876C9 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Croatian/InputStickKeyboardLayoutHrHRLinux.m */,
+				1E599BE40F5C40EAE88CAB16 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Croatian/InputStickKeyboardLayoutHrHRMac.h */,
+				41378E9977331F6E96D2B615 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Croatian/InputStickKeyboardLayoutHrHRMac.m */,
+				D411DFA74FA677E9B1576EC9 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Czech/InputStickKeyboardLayoutCsCZ.h */,
+				14D61717C2F2A414A259CAB1 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Czech/InputStickKeyboardLayoutCsCZ.m */,
+				9BC3A0C5121CB9F952DEFF8C /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Czech/InputStickKeyboardLayoutCsCZLinux.h */,
+				55FDA82A90EB950092B1BAB9 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Czech/InputStickKeyboardLayoutCsCZLinux.m */,
+				633ED4EF6F00EBE9C740A171 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Czech/InputStickKeyboardLayoutCsCZMac.h */,
+				22CEFA11367C744C9E0B3402 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Czech/InputStickKeyboardLayoutCsCZMac.m */,
+				7B4C1F464974027A2159ED64 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Czech/InputStickKeyboardLayoutCsCZProgrammers.h */,
+				1CB8196848CDAC6EBF384478 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Czech/InputStickKeyboardLayoutCsCZProgrammers.m */,
+				83558DF159DDC9D7BCBBD286 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Czech/InputStickKeyboardLayoutCsCZQwerty.h */,
+				277BE08B4F52B830A70B995F /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Czech/InputStickKeyboardLayoutCsCZQwerty.m */,
+				7ED5151DD2489927D6506DB7 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Czech/InputStickKeyboardLayoutCsCZQwertyLinux.h */,
+				104113B5DC5D517D7AC267FE /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Czech/InputStickKeyboardLayoutCsCZQwertyLinux.m */,
+				0D02C173FF78344E67211AA3 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Czech/InputStickKeyboardLayoutCsCZQwertyMac.h */,
+				634A4FA3B9B6B1E31A6FBE5D /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Czech/InputStickKeyboardLayoutCsCZQwertyMac.m */,
+				5879B7FA245C0D95805195EF /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Danish/InputStickKeyboardLayoutDaDK.h */,
+				3D1125ADA14BFFED1617C731 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Danish/InputStickKeyboardLayoutDaDK.m */,
+				16D785D5A6B4B4FDB82A5AA4 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Danish/InputStickKeyboardLayoutDaDKLinux.h */,
+				C0439D365DE2A7FD47AB027C /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Danish/InputStickKeyboardLayoutDaDKLinux.m */,
+				40FC4B359AAB3A522516CD75 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Danish/InputStickKeyboardLayoutDaDKMac.h */,
+				F63C73B7A624FDBA4E4AEC19 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Danish/InputStickKeyboardLayoutDaDKMac.m */,
+				F1C6C57EAE85BFA109859A66 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Dutch/InputStickKeyboardLayoutNlNL.h */,
+				F90F33BAF2691CCD6238E441 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Dutch/InputStickKeyboardLayoutNlNL.m */,
+				58A04C14C19DF8C3565C1C94 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Dutch/InputStickKeyboardLayoutNlNLLinux.h */,
+				53832FA19B32457512E7E1AA /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Dutch/InputStickKeyboardLayoutNlNLLinux.m */,
+				460D4638CDF354FF7F07FD5C /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Dutch/InputStickKeyboardLayoutNlNLMac.h */,
+				90E9496AFC7B1F179FD8EB8E /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Dutch/InputStickKeyboardLayoutNlNLMac.m */,
+				306DE9A10043A74C4EB123CE /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/English/InputStickKeyboardLayoutEnGB.h */,
+				D027036739E355C4FFBA36F2 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/English/InputStickKeyboardLayoutEnGB.m */,
+				785474A156DABBB05FC1545F /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/English/InputStickKeyboardLayoutEnGBLinux.h */,
+				95632056F9697D810D00E497 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/English/InputStickKeyboardLayoutEnGBLinux.m */,
+				F32B04715D5C08999542A091 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/English/InputStickKeyboardLayoutEnGBMac.h */,
+				E86F1AD0E6625AE0FBFC6C01 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/English/InputStickKeyboardLayoutEnGBMac.m */,
+				39D2BDD4D19C10D69B3049C8 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/English/InputStickKeyboardLayoutEnUS.h */,
+				B6C24C9475621FF5E1CFDB44 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/English/InputStickKeyboardLayoutEnUS.m */,
+				5887420B864DCE4428B6AA03 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/English/InputStickKeyboardLayoutEnUSDvorak.h */,
+				5EA85525D8DD5F56E502C211 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/English/InputStickKeyboardLayoutEnUSDvorak.m */,
+				8047BEADA7878CE96D92DAD5 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/English/InputStickKeyboardLayoutEnUSInt.h */,
+				B584E52DBF166504BA5883E6 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/English/InputStickKeyboardLayoutEnUSInt.m */,
+				260E8499B5435B6964933278 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/English/InputStickKeyboardLayoutEnUSIntLinux.h */,
+				133859781BFA546B00AE05D1 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/English/InputStickKeyboardLayoutEnUSIntLinux.m */,
+				9E014D4F1898565FAA431E9C /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/English/InputStickKeyboardLayoutEnUSIntMac.h */,
+				5BE97AD0E1206287A3BDBB40 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/English/InputStickKeyboardLayoutEnUSIntMac.m */,
+				0E05D414AC616CD8A36B7D6A /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/English/InputStickKeyboardLayoutEnUSLinux.h */,
+				A7CB68151FD00DAA758A8D43 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/English/InputStickKeyboardLayoutEnUSLinux.m */,
+				70735102567BA0A44B50EC0D /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/English/InputStickKeyboardLayoutEnUSMac.h */,
+				3C515D65D1190D9AF53AC654 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/English/InputStickKeyboardLayoutEnUSMac.m */,
+				49E4519C1A6391C8400CBC92 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Finnish/InputStickKeyboardLayoutFiFI.h */,
+				F90DF4950897EEC41DD5E221 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Finnish/InputStickKeyboardLayoutFiFI.m */,
+				788132B7D73A5701881A63FC /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Finnish/InputStickKeyboardLayoutFiFILinux.h */,
+				C871ABE86B27B5D9017927F0 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Finnish/InputStickKeyboardLayoutFiFILinux.m */,
+				FC4399059BADA7475B6BA176 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Finnish/InputStickKeyboardLayoutFiFIMac.h */,
+				DFD6F84A03CEEC1844F315C1 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Finnish/InputStickKeyboardLayoutFiFIMac.m */,
+				0D202F80B34590F7067D74D1 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/French/InputStickKeyboardLayoutFrBE.h */,
+				C677D16087ADB2BF243D8C9B /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/French/InputStickKeyboardLayoutFrBE.m */,
+				ABE57C348504C492A7248FA8 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/French/InputStickKeyboardLayoutFrBELinux.h */,
+				49B0AA686EE579338DFD931A /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/French/InputStickKeyboardLayoutFrBELinux.m */,
+				7B14AF8DFDA0BD2F6F9B7585 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/French/InputStickKeyboardLayoutFrBEMac.h */,
+				47EB85042969AA15069C0678 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/French/InputStickKeyboardLayoutFrBEMac.m */,
+				6F6C5B847F07BDDD9DE95AE9 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/French/InputStickKeyboardLayoutFrCA.h */,
+				11721A23C6695549AFCC7D14 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/French/InputStickKeyboardLayoutFrCA.m */,
+				A3C77968031D9F67E6CFED46 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/French/InputStickKeyboardLayoutFrCALinux.h */,
+				9F0BF04A22227B991F794B6D /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/French/InputStickKeyboardLayoutFrCALinux.m */,
+				E4B10DD5D7AE3360C2FF2868 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/French/InputStickKeyboardLayoutFrCAMac.h */,
+				186325037F41742F025213AE /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/French/InputStickKeyboardLayoutFrCAMac.m */,
+				F328BA228113940E4D3AE04A /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/French/InputStickKeyboardLayoutFrCH.h */,
+				9E57B2BDA732C328E6B1149B /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/French/InputStickKeyboardLayoutFrCH.m */,
+				9F5A394AF99D2ECFBAA801F0 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/French/InputStickKeyboardLayoutFrCHLinux.h */,
+				B459B529FE5C03E62F6E2C39 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/French/InputStickKeyboardLayoutFrCHLinux.m */,
+				529A710A8440063613142214 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/French/InputStickKeyboardLayoutFrCHMac.h */,
+				47CE9629179FABA54EFCB6C2 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/French/InputStickKeyboardLayoutFrCHMac.m */,
+				64E4F4A548680E64C09125D1 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/French/InputStickKeyboardLayoutFrFR.h */,
+				77429656401F791F71EE4644 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/French/InputStickKeyboardLayoutFrFR.m */,
+				C80018C0A80DCF0F657F2F1B /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/French/InputStickKeyboardLayoutFrFRLinux.h */,
+				4DEFADC342A3FB0F5CF2E3EB /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/French/InputStickKeyboardLayoutFrFRLinux.m */,
+				0CB9C27D714F5F6D0D21BC36 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/French/InputStickKeyboardLayoutFrFRMac.h */,
+				897C3D93A9808B36B4ED3F17 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/French/InputStickKeyboardLayoutFrFRMac.m */,
+				84354BEC9D86B8568ABA5543 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/German/InputStickKeyboardLayoutDeCH.h */,
+				DC4CD8A59FF1970830878771 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/German/InputStickKeyboardLayoutDeCH.m */,
+				ED7479C0E7190AF2BECBFA70 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/German/InputStickKeyboardLayoutDeCHLinux.h */,
+				DA28820E80CB92F24939F4F2 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/German/InputStickKeyboardLayoutDeCHLinux.m */,
+				7E1F6A4CC2CAF35FA8E593A3 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/German/InputStickKeyboardLayoutDeCHMac.h */,
+				5F4700A706CD61A66A086C53 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/German/InputStickKeyboardLayoutDeCHMac.m */,
+				5A41D5548C1674113BC90588 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/German/InputStickKeyboardLayoutDeDE.h */,
+				0BCA9D54C728DEF2FF61690D /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/German/InputStickKeyboardLayoutDeDE.m */,
+				827E8A9AB25F0F1E0872BCAB /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/German/InputStickKeyboardLayoutDeDELinux.h */,
+				A943EF771AB0E251EA8F9F67 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/German/InputStickKeyboardLayoutDeDELinux.m */,
+				BD7DFD4620D94E939B899A5C /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/German/InputStickKeyboardLayoutDeDEMac.h */,
+				63540FF74DB6821449B67A46 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/German/InputStickKeyboardLayoutDeDEMac.m */,
+				F4BD085AB3BCD8293E547310 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Greek/InputStickKeyboardLayoutElGR.h */,
+				E43EF7EF872F482FAB071D10 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Greek/InputStickKeyboardLayoutElGR.m */,
+				A81AA07ECAD3D1301ACE568F /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Greek/InputStickKeyboardLayoutElGRLinux.h */,
+				D30D96C90DB3D94F18800E00 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Greek/InputStickKeyboardLayoutElGRLinux.m */,
+				8673F4F7E3A65499B5DA1B7B /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Greek/InputStickKeyboardLayoutElGRMac.h */,
+				260CAE9B3BF946897F0E001B /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Greek/InputStickKeyboardLayoutElGRMac.m */,
+				8581EC77F342B34D7DF5AEB1 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Hebrew/InputStickKeyboardLayoutHeIL.h */,
+				05F1E99D7A092A7B165C7E37 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Hebrew/InputStickKeyboardLayoutHeIL.m */,
+				774E1B871FB09F7D4A0B9588 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Hebrew/InputStickKeyboardLayoutHeILLinux.h */,
+				0306B654A6ABDBDD9580E40B /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Hebrew/InputStickKeyboardLayoutHeILLinux.m */,
+				A4453A4817106C05E6577ED7 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Hebrew/InputStickKeyboardLayoutHeILMac.h */,
+				79F896558B0B37EA24416E31 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Hebrew/InputStickKeyboardLayoutHeILMac.m */,
+				4E5058C231A9881D18DE504B /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Hungarian/InputStickKeyboardLayoutHuHU.h */,
+				B2EADA90D4516D1C02C5860E /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Hungarian/InputStickKeyboardLayoutHuHU.m */,
+				A34C1307939E73B16AF1F703 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Hungarian/InputStickKeyboardLayoutHuHULinux.h */,
+				2D75DA596BE201CB669903AE /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Hungarian/InputStickKeyboardLayoutHuHULinux.m */,
+				48EC5360E0D017CE7D10EB9C /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Hungarian/InputStickKeyboardLayoutHuHUMac.h */,
+				C37C2B079CF3BE94BFDDF2E6 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Hungarian/InputStickKeyboardLayoutHuHUMac.m */,
+				EE0C760FAD6B225F9A132584 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/InputStickKeyboardLayoutProtocol.h */,
+				B3054BB639E0E93C04E233A0 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/InputStickKeyboardLayoutUtils.h */,
+				9CA3D4B877ED1B52490BEE11 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/InputStickKeyboardLayoutUtils.m */,
+				7C07460943BAA0E914A213E4 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Italian/InputStickKeyboardLayoutItIT.h */,
+				AA378ADDBC17CE650622A0BD /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Italian/InputStickKeyboardLayoutItIT.m */,
+				1C669569CDD3D1C6B3BB5725 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Italian/InputStickKeyboardLayoutItITLinux.h */,
+				430D2D84FEA6B4C823445F95 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Italian/InputStickKeyboardLayoutItITLinux.m */,
+				630B76A68C668A1AC7D8E8A7 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Italian/InputStickKeyboardLayoutItITMac.h */,
+				4C4F5E5DB527E47819899E0A /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Italian/InputStickKeyboardLayoutItITMac.m */,
+				F074E8296A38D449C9D3CBA3 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Japanese/InputStickKeyboardLayoutJpJP.h */,
+				4A27268920FD5C3C41546973 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Japanese/InputStickKeyboardLayoutJpJP.m */,
+				EF3C99E439763EA791D35874 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Norwegian/InputStickKeyboardLayoutNbNO.h */,
+				601A7BADC3FC2BBEB559C827 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Norwegian/InputStickKeyboardLayoutNbNO.m */,
+				E76BF60E95DB124CF5DEB949 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Norwegian/InputStickKeyboardLayoutNbNOLinux.h */,
+				D800FFC8D657E39997C56E3A /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Norwegian/InputStickKeyboardLayoutNbNOLinux.m */,
+				A5D9BB48FBA63657EEC1AA1A /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Norwegian/InputStickKeyboardLayoutNbNOMac.h */,
+				EFB3433153D2B31F4F4CBD99 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Norwegian/InputStickKeyboardLayoutNbNOMac.m */,
+				4036842655C3893C9BC9117F /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Polish/InputStickKeyboardLayoutPlPL.h */,
+				EE4EDD3A1B0C20BD523031D6 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Polish/InputStickKeyboardLayoutPlPL.m */,
+				5D9F05B4B289A9715D75BC30 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Polish/InputStickKeyboardLayoutPlPLLinux.h */,
+				E6F52427DE5A1F59D7932DD5 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Polish/InputStickKeyboardLayoutPlPLLinux.m */,
+				714FA21390FAFF4D01484018 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Polish/InputStickKeyboardLayoutPlPLMac.h */,
+				DE73FA77EC6BCA166D5FD74D /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Polish/InputStickKeyboardLayoutPlPLMac.m */,
+				1C489D81F27C54EB1F3F9C8C /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Portuguese/InputStickKeyboardLayoutPtBR.h */,
+				8D2BF5B376366D08902977E1 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Portuguese/InputStickKeyboardLayoutPtBR.m */,
+				0A10EEC39C5004F22DF7E9C9 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Portuguese/InputStickKeyboardLayoutPtBRLinux.h */,
+				1B130A8E3A8CD3664D67DC02 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Portuguese/InputStickKeyboardLayoutPtBRLinux.m */,
+				86EF61CDE08080504CF73DCD /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Portuguese/InputStickKeyboardLayoutPtBRMac.h */,
+				719BE5CDE3077E8B48B97F85 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Portuguese/InputStickKeyboardLayoutPtBRMac.m */,
+				F9E7D01C4BB7E40EC243D99E /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Portuguese/InputStickKeyboardLayoutPtPT.h */,
+				9C4BB1C86D6D3160378AC487 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Portuguese/InputStickKeyboardLayoutPtPT.m */,
+				F0A671D999C2A1CC64994E70 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Portuguese/InputStickKeyboardLayoutPtPTLinux.h */,
+				86EE239DCFFA84536B41C607 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Portuguese/InputStickKeyboardLayoutPtPTLinux.m */,
+				D5B9F4ED3BAC6D9EF33B8A71 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Portuguese/InputStickKeyboardLayoutPtPTMac.h */,
+				B083BC65F1FB53C884DC4120 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Portuguese/InputStickKeyboardLayoutPtPTMac.m */,
+				94C8FD8146513BA037D4AC6C /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Russian/InputStickKeyboardLayoutRuRU.h */,
+				747112A765DC252EC3EA5830 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Russian/InputStickKeyboardLayoutRuRU.m */,
+				8E146FE476C98DC98102379C /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Russian/InputStickKeyboardLayoutRuRULinux.h */,
+				8D6137A63FC509B5667ECC30 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Russian/InputStickKeyboardLayoutRuRULinux.m */,
+				D3CD70C75CBE1DD96F0B02D4 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Russian/InputStickKeyboardLayoutRuRUMac.h */,
+				3EC85064B0609525B5560A44 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Russian/InputStickKeyboardLayoutRuRUMac.m */,
+				2C9BBE6AD8D4F69DD3713E39 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Slovak/InputStickKeyboardLayoutSkSK.h */,
+				9CF587830DE240A27A053364 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Slovak/InputStickKeyboardLayoutSkSK.m */,
+				490C99B60357CFDD226235C3 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Slovak/InputStickKeyboardLayoutSkSKLinux.h */,
+				E9299E0AF56C8068A4CE8D78 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Slovak/InputStickKeyboardLayoutSkSKLinux.m */,
+				EAE171A07184BE1E4940141F /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Slovak/InputStickKeyboardLayoutSkSKMac.h */,
+				9108FC0E1599D534B44905F2 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Slovak/InputStickKeyboardLayoutSkSKMac.m */,
+				EED4DA6BB0FA29C6E195E773 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Slovak/InputStickKeyboardLayoutSkSKQwerty.h */,
+				40A18860797550AAF9B4C6E1 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Slovak/InputStickKeyboardLayoutSkSKQwerty.m */,
+				B149E571F1BEFFC3CE9BD635 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Slovak/InputStickKeyboardLayoutSkSKQwertyLinux.h */,
+				F5A90405BF6B2BAF1F7A6709 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Slovak/InputStickKeyboardLayoutSkSKQwertyLinux.m */,
+				668D423E085B9556DFDAB879 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Slovak/InputStickKeyboardLayoutSkSKQwertyMac.h */,
+				4F7D14027905F9D4C3FAB73B /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Slovak/InputStickKeyboardLayoutSkSKQwertyMac.m */,
+				F06F4E53CA1B809B8EACF12B /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Spanish/InputStickKeyboardLayoutEsES.h */,
+				65F8D93CDDFEC1D8481B05B8 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Spanish/InputStickKeyboardLayoutEsES.m */,
+				C4F60D7CE2727B46122756E0 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Spanish/InputStickKeyboardLayoutEsESLinux.h */,
+				6F46BFA9EDCD3E0F6CB45C3A /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Spanish/InputStickKeyboardLayoutEsESLinux.m */,
+				0CCC75B4A37593118AEFCFA4 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Spanish/InputStickKeyboardLayoutEsESMac.h */,
+				685D32340C93F32A7D494640 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Spanish/InputStickKeyboardLayoutEsESMac.m */,
+				CCD224E5B8BB0D4F3D5349FE /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Swedish/InputStickKeyboardLayoutSvSE.h */,
+				DF4978FC4D4FED96A48F7DF5 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Swedish/InputStickKeyboardLayoutSvSE.m */,
+				CD8FB097E6AF7C47D695156A /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Swedish/InputStickKeyboardLayoutSvSELinux.h */,
+				C21FBFA4E1297C031DA94F4A /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Swedish/InputStickKeyboardLayoutSvSELinux.m */,
+				026C5496AA1DCC07D8EB6E50 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Swedish/InputStickKeyboardLayoutSvSEMac.h */,
+				597AF3FCE9E4FA81A7C2DB4A /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Swedish/InputStickKeyboardLayoutSvSEMac.m */,
+				5A4162E4E8F14F94717EA6CF /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Vietnamese/InputStickKeyboardLayoutVnVN.h */,
+				6E38408C7CF43F0079B420E7 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Vietnamese/InputStickKeyboardLayoutVnVN.m */,
+				00AA20074BD8271585ADC668 /* Vendor/InputStickCore/InputStick.strings */,
+				7B199710AB35652D71CD9370 /* Vendor/InputStickCore/InputStickAPI.h */,
+				A3B30BA313EE66D2C7EB7271 /* Vendor/InputStickCore/InputStickManager+Protected.h */,
+				16EDA4844A7DAAD005EA7A5F /* Vendor/InputStickCore/InputStickManager.h */,
+				D9266BB193A2D64392F7B382 /* Vendor/InputStickCore/InputStickManager.m */,
+				F9737B677258D69A2309FF43 /* Vendor/InputStickCore/InputStickManagerDelegate.h */,
+				1C4E56F75BD52F920166FC03 /* Vendor/InputStickCore/Notifications/NSNotificationCenter+InputStickConnection.h */,
+				0AF98C25405FD4C9512220CF /* Vendor/InputStickCore/Notifications/NSNotificationCenter+InputStickConnection.m */,
+				832B15A1B6B1A25BE1A5CDCF /* Vendor/InputStickCore/Notifications/NSNotificationCenter+InputStickPacket.h */,
+				2AF1AEEB0E9855129AE67BCA /* Vendor/InputStickCore/Notifications/NSNotificationCenter+InputStickPacket.m */,
+				E9B0EFE9ED1CA768575D3E23 /* Vendor/InputStickCore/Notifications/NSNotificationCenter+InputStickPeripheralScan.h */,
+				110175E473F86FCDD7ABF0F2 /* Vendor/InputStickCore/Notifications/NSNotificationCenter+InputStickPeripheralScan.m */,
+				E0952C0400797098930C6B6B /* Vendor/InputStickCore/Notifications/NSNotificationCenter+InputStickStatusUpdate.h */,
+				71EDA8B964A08FA15B01BC4D /* Vendor/InputStickCore/Notifications/NSNotificationCenter+InputStickStatusUpdate.m */,
+				E4F27CC4123959AF879A906C /* Vendor/InputStickCore/Security/InputStickEncryptionManager.h */,
+				0244C439A7FAB6668A1A1659 /* Vendor/InputStickCore/Security/InputStickEncryptionManager.m */,
+				C813C72DF19F4EC5CA1291DD /* Vendor/InputStickCore/Utils/InputStickConst.h */,
+				B3FA3ABFF181A20A97C918A9 /* Vendor/InputStickCore/Utils/InputStickConst.m */,
+				4D794389E0E81569E8922F8C /* Vendor/InputStickCore/Utils/InputStickDataUtils.h */,
+				409E3B3A606D384ADE2C16DC /* Vendor/InputStickCore/Utils/InputStickDataUtils.m */,
+				4580B89E47FD694DCEED28D6 /* Vendor/InputStickCore/Utils/InputStickError.h */,
+				2675509D031167E9914B286B /* Vendor/InputStickCore/Utils/InputStickError.m */,
+				DB30F2F5EBFEE65E402B33E8 /* Vendor/InputStickCore/Utils/InputStickLog.h */,
+				757B6D05DFFCB13A29BC0ABA /* Vendor/InputStickCore/Utils/InputStickLog.m */,
+				06C00E98BDDEFDA1FB092943 /* Vendor/InputStickCore/Utils/InputStickPreferences.h */,
+				442945CE588395DF9D27BF04 /* Vendor/InputStickCore/Utils/InputStickPreferences.m */,
+				35F348045868707ABA66518A /* Vendor/InputStickCore/Utils/InputStickPreferencesHelper.h */,
+				84A901E989D790E25950824F /* Vendor/InputStickCore/Utils/InputStickPreferencesHelper.m */,
+				123679647AA54C9472329C32 /* Vendor/LICENSE */,
+			);
+			name = Vendor;
+			sourceTree = "<group>";
+		};
+		325F10A6957A34D66CB8C0E4 = {
+			isa = PBXGroup;
+			children = (
+				49FD95CD032EF842D70FF423 /* App */,
+				DB51CAB104FFA15D4052696B /* Bridge */,
+				2DC2F17A72A14E54E117EF33 /* Vendor */,
+				FBDC4F23F93125BBEEAE800C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		49FD95CD032EF842D70FF423 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				59166CB812F1D6D9A645AF5C /* App/InputState.swift */,
+				78603AE3DDA7AB72059BC254 /* App/InputStickKVMApp.swift */,
+				BA68F95EA44D19C5104639B4 /* App/KVMModel.swift */,
+				9D11DC9830B4DFEA009AD323 /* InputStickKVM.png */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+		DB51CAB104FFA15D4052696B /* Bridge */ = {
+			isa = PBXGroup;
+			children = (
+				6CCA2B60DAE2F42CFD990D2C /* Bridge/InputStickKVM-Bridging-Header.h */,
+				818D6DC4E516B78109E5703C /* Bridge/KVMTransport.h */,
+				158BE644FFB7000213702011 /* Bridge/KVMTransport.m */,
+			);
+			name = Bridge;
+			sourceTree = "<group>";
+		};
+		FBDC4F23F93125BBEEAE800C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38A007151ABE87CC01A5B6E9 /* InputStickKVM.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0E8A3AD980EC179856012B7E /* InputStickKVM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E30856D4D988D9571DE7D610 /* Build configuration list for PBXNativeTarget "InputStickKVM" */;
+			buildPhases = (
+				BCE16DD0260827ECF338C787 /* Sources */,
+				7561BFB015D8F536760CB671 /* Frameworks */,
+				0189424A5A60FED329FA868E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InputStickKVM;
+			productName = InputStickKVM;
+			productReference = 38A007151ABE87CC01A5B6E9 /* InputStickKVM.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98F54143AB4E86B28C3AFEE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 2720;
+			};
+			buildConfigurationList = 862894B703A6DEDF96A9DD6C /* Build configuration list for PBXProject "InputStickKVM" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 325F10A6957A34D66CB8C0E4;
+			productRefGroup = FBDC4F23F93125BBEEAE800C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0E8A3AD980EC179856012B7E /* InputStickKVM */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0189424A5A60FED329FA868E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (ABCDEF123456789012345671,
+				3A2FA7437BF3828EAE1ED288 /* Vendor/InputStickCore/InputStick.strings in Resources */,
+				9D11DC9930B4DFEA009AD323 /* InputStickKVM.png in Resources */,
+				F394F871DD1234816B5F94D2 /* Vendor/LICENSE in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCE16DD0260827ECF338C787 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58162CE28CCEF06A07858BCA /* App/InputState.swift in Sources */,
+				4FD2120E7B3742C94B0A3EB9 /* App/InputStickKVMApp.swift in Sources */,
+				C89C95C84CAB2E1CD1C9C310 /* App/KVMModel.swift in Sources */,
+				8C7E31A21BEB0E020158B86C /* Bridge/KVMTransport.m in Sources */,
+				D08F4E6936977A19E81046B1 /* Vendor/InputStickCore/Connection/InputStickConnectionManager.m in Sources */,
+				C59A9B805C27BF3C781A17CB /* Vendor/InputStickCore/Connection/InputStickPeripheralInfo.m in Sources */,
+				A5D644A4F5920903A3BD89B3 /* Vendor/InputStickCore/Connection/Packet/InputStickPacket.m in Sources */,
+				F842A6407E7AA59097CC99B3 /* Vendor/InputStickCore/Connection/Packet/InputStickPacketParser.m in Sources */,
+				28DD143496D9DBA450A7A54F /* Vendor/InputStickCore/Connection/Packet/InputStickRxPacket+FirmwareInfo.m in Sources */,
+				C057E8D18885115955290F28 /* Vendor/InputStickCore/Connection/Packet/InputStickRxPacket.m in Sources */,
+				F9E9A479FB436BAAA8B0B148 /* Vendor/InputStickCore/Connection/Packet/InputStickTxPacket.m in Sources */,
+				7C148F08F0AF45E4DD629FE3 /* Vendor/InputStickCore/Connection/Packet/NSData+CRC.m in Sources */,
+				04E1A645983464452261C2AA /* Vendor/InputStickCore/Database/InputStickDeviceDB.m in Sources */,
+				3644CEBEC7DDDB115DE6D7FD /* Vendor/InputStickCore/Database/InputStickDeviceData.m in Sources */,
+				7F10892FECCA6358AC7E4F30 /* Vendor/InputStickCore/Firmware Manager/InputStickHIDFirmwareManager.m in Sources */,
+				D719E9CB02AE9B662D9A963E /* Vendor/InputStickCore/HID/HID Handlers/Consumer Handler/InputStickConsumerHandler.m in Sources */,
+				B456E0094FEC03CF4D73373E /* Vendor/InputStickCore/HID/HID Handlers/Gamepad Handler/InputStickGamepadHandler.m in Sources */,
+				B5DAAC905C990C4AC572C101 /* Vendor/InputStickCore/HID/HID Handlers/Keyboard Handler/InputStickKeyboardHandler.m in Sources */,
+				C6B4AB532B4DBC98B7FE84EF /* Vendor/InputStickCore/HID/HID Handlers/Mouse Handler/InputStickMouseHandler.m in Sources */,
+				E34DB58883665ED78130456D /* Vendor/InputStickCore/HID/HID Handlers/TouchScreen Handler/InputStickTouchScreenHandler.m in Sources */,
+				B03CC543AAF442BE56C2F6E2 /* Vendor/InputStickCore/HID/InputStickHIDBuffersManager.m in Sources */,
+				7E9D36F8B565E90499F442B9 /* Vendor/InputStickCore/HID/InputStickHIDBuffersState.m in Sources */,
+				85CF912E7FDDE94CF2CE0D07 /* Vendor/InputStickCore/HID/InputStickHIDReport.m in Sources */,
+				4EAABE8EEA2841F8C5880E21 /* Vendor/InputStickCore/HID/InputStickHIDTransaction.m in Sources */,
+				26230C8143ADC49663DD1CF7 /* Vendor/InputStickCore/HID/InputStickHIDTransactionBuffer.m in Sources */,
+				4CC12D453DFAA2E4A5C4F781 /* Vendor/InputStickCore/HID/Keyboard/InputStickKeyLabels.m in Sources */,
+				1F545DF9350DA99DDFF0B9F3 /* Vendor/InputStickCore/HID/Keyboard/InputStickKeyboardKeyModel.m in Sources */,
+				F96BAE233D5C651D826BDD25 /* Vendor/InputStickCore/HID/Keyboard/InputStickKeyboardLEDsState.m in Sources */,
+				B515915B8D27A3BDDC47A850 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Croatian/InputStickKeyboardLayoutHrHR.m in Sources */,
+				D8871E80D00EF93F876B95EE /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Croatian/InputStickKeyboardLayoutHrHRLinux.m in Sources */,
+				246C3D8358740A8B1D90EA2B /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Croatian/InputStickKeyboardLayoutHrHRMac.m in Sources */,
+				0984639ED595FEB26BC048FE /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Czech/InputStickKeyboardLayoutCsCZ.m in Sources */,
+				B202B140F88E49F891629465 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Czech/InputStickKeyboardLayoutCsCZLinux.m in Sources */,
+				86C5967B2E4B0E6C8D84F432 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Czech/InputStickKeyboardLayoutCsCZMac.m in Sources */,
+				053B2AFBBBF0EE2E7449AADC /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Czech/InputStickKeyboardLayoutCsCZProgrammers.m in Sources */,
+				F001FA763EAD489720004DAB /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Czech/InputStickKeyboardLayoutCsCZQwerty.m in Sources */,
+				8C150C74EFC862EDB0B3F0EA /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Czech/InputStickKeyboardLayoutCsCZQwertyLinux.m in Sources */,
+				7119236FD2457F34B3823D94 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Czech/InputStickKeyboardLayoutCsCZQwertyMac.m in Sources */,
+				9B6BFA7CCFEB8762B9B281CB /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Danish/InputStickKeyboardLayoutDaDK.m in Sources */,
+				D841FABEB26AF58ECA7B7A7A /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Danish/InputStickKeyboardLayoutDaDKLinux.m in Sources */,
+				76E5631CDA56B2A4AD09664D /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Danish/InputStickKeyboardLayoutDaDKMac.m in Sources */,
+				D83BB3551E19EA54FD6F838A /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Dutch/InputStickKeyboardLayoutNlNL.m in Sources */,
+				C519C8E38C7500B76CA64162 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Dutch/InputStickKeyboardLayoutNlNLLinux.m in Sources */,
+				4518E46843813EB295083D08 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Dutch/InputStickKeyboardLayoutNlNLMac.m in Sources */,
+				C1F9567F0A293C8C35135052 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/English/InputStickKeyboardLayoutEnGB.m in Sources */,
+				F6B973A472CC738B75873CD8 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/English/InputStickKeyboardLayoutEnGBLinux.m in Sources */,
+				8ACF8FB2377FD51F40D82704 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/English/InputStickKeyboardLayoutEnGBMac.m in Sources */,
+				D91BE728CB92821BD0A60040 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/English/InputStickKeyboardLayoutEnUS.m in Sources */,
+				27E4F564747F2F6AAA7B2CBF /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/English/InputStickKeyboardLayoutEnUSDvorak.m in Sources */,
+				94E39B9C57A93AA0B0BB61BB /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/English/InputStickKeyboardLayoutEnUSInt.m in Sources */,
+				83677B006ADDD70E9E66E4E0 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/English/InputStickKeyboardLayoutEnUSIntLinux.m in Sources */,
+				B69A664208515B357931C669 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/English/InputStickKeyboardLayoutEnUSIntMac.m in Sources */,
+				35DD4963F785E6B9EC3421DA /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/English/InputStickKeyboardLayoutEnUSLinux.m in Sources */,
+				6DF57A78F6039A310A2E1BFB /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/English/InputStickKeyboardLayoutEnUSMac.m in Sources */,
+				0405B93E10F62DE8A252DBD0 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Finnish/InputStickKeyboardLayoutFiFI.m in Sources */,
+				4BA09FB4CC0E8D513318D83D /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Finnish/InputStickKeyboardLayoutFiFILinux.m in Sources */,
+				4A49DEEA8D221B86354D8A11 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Finnish/InputStickKeyboardLayoutFiFIMac.m in Sources */,
+				2AD3651305E2271CC5D1764E /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/French/InputStickKeyboardLayoutFrBE.m in Sources */,
+				BBF125751140A5E29FC99B96 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/French/InputStickKeyboardLayoutFrBELinux.m in Sources */,
+				A274BD9E5348615EA9519AA0 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/French/InputStickKeyboardLayoutFrBEMac.m in Sources */,
+				88F0C7C1A104425811B96401 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/French/InputStickKeyboardLayoutFrCA.m in Sources */,
+				4AB7D76083658CB9FCE5CC8A /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/French/InputStickKeyboardLayoutFrCALinux.m in Sources */,
+				7B626D8BAB13EC849A7C7602 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/French/InputStickKeyboardLayoutFrCAMac.m in Sources */,
+				0C0D8C265294EB04ACBD9C5C /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/French/InputStickKeyboardLayoutFrCH.m in Sources */,
+				A9F4DC7BF0462536DEAF9303 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/French/InputStickKeyboardLayoutFrCHLinux.m in Sources */,
+				366B95AF402AF25A4B865FF5 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/French/InputStickKeyboardLayoutFrCHMac.m in Sources */,
+				B20F268804075EB939324682 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/French/InputStickKeyboardLayoutFrFR.m in Sources */,
+				79BA32E46BA4EDD76A799670 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/French/InputStickKeyboardLayoutFrFRLinux.m in Sources */,
+				70BB5E59AA177B335CB19533 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/French/InputStickKeyboardLayoutFrFRMac.m in Sources */,
+				1FBA27F0B2A7F65097D86BF3 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/German/InputStickKeyboardLayoutDeCH.m in Sources */,
+				2EC837D4B9DB05DD8EACE95C /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/German/InputStickKeyboardLayoutDeCHLinux.m in Sources */,
+				E65AA4D3844119897D42480A /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/German/InputStickKeyboardLayoutDeCHMac.m in Sources */,
+				47CECCC8F2E46CC5BE452D64 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/German/InputStickKeyboardLayoutDeDE.m in Sources */,
+				8BE8AC64A44E11A61E7B25FB /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/German/InputStickKeyboardLayoutDeDELinux.m in Sources */,
+				8E13DCBE8F90AFB77FD226EA /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/German/InputStickKeyboardLayoutDeDEMac.m in Sources */,
+				026C634DD1267DEFD19B91A5 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Greek/InputStickKeyboardLayoutElGR.m in Sources */,
+				2E22D2A4D7DADF0FF43C3B1B /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Greek/InputStickKeyboardLayoutElGRLinux.m in Sources */,
+				D63EE14A1CEE9D3D39657F54 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Greek/InputStickKeyboardLayoutElGRMac.m in Sources */,
+				635CCFDFAF4F552A335E2516 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Hebrew/InputStickKeyboardLayoutHeIL.m in Sources */,
+				1650E8028631FE6E7FE62D48 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Hebrew/InputStickKeyboardLayoutHeILLinux.m in Sources */,
+				929C1F196BF6F7B04FF0EC77 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Hebrew/InputStickKeyboardLayoutHeILMac.m in Sources */,
+				F1567A5E13A1EC169097A06D /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Hungarian/InputStickKeyboardLayoutHuHU.m in Sources */,
+				7860220ADE28C6B0EAF30D00 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Hungarian/InputStickKeyboardLayoutHuHULinux.m in Sources */,
+				687911616969989854680156 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Hungarian/InputStickKeyboardLayoutHuHUMac.m in Sources */,
+				72E8B7A94F3C28287A8ED6BD /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/InputStickKeyboardLayoutUtils.m in Sources */,
+				C40E5F26C86766FC6F3D520F /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Italian/InputStickKeyboardLayoutItIT.m in Sources */,
+				96718611D69153F22E4F0BD9 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Italian/InputStickKeyboardLayoutItITLinux.m in Sources */,
+				D9080D6E00DBA05F4282F39D /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Italian/InputStickKeyboardLayoutItITMac.m in Sources */,
+				1BE366411B043712031B4938 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Japanese/InputStickKeyboardLayoutJpJP.m in Sources */,
+				B200838B47FFA305370600C5 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Norwegian/InputStickKeyboardLayoutNbNO.m in Sources */,
+				CD382E15B3451AB40D85E3BF /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Norwegian/InputStickKeyboardLayoutNbNOLinux.m in Sources */,
+				6D7738589B87C1235D2B8D56 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Norwegian/InputStickKeyboardLayoutNbNOMac.m in Sources */,
+				6B9CBAEF4FE191E1A844518A /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Polish/InputStickKeyboardLayoutPlPL.m in Sources */,
+				8395720FEF8B7C04659FB794 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Polish/InputStickKeyboardLayoutPlPLLinux.m in Sources */,
+				C40E7E09B1B755AE6457E6D9 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Polish/InputStickKeyboardLayoutPlPLMac.m in Sources */,
+				39A889F1F147EE944DC22A50 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Portuguese/InputStickKeyboardLayoutPtBR.m in Sources */,
+				8CE7C59AA9637C8C1DA665CA /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Portuguese/InputStickKeyboardLayoutPtBRLinux.m in Sources */,
+				6B1308C8E84606E784A955A7 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Portuguese/InputStickKeyboardLayoutPtBRMac.m in Sources */,
+				D0DA53C5E4ED4138AB241D07 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Portuguese/InputStickKeyboardLayoutPtPT.m in Sources */,
+				584C928ACE30A2088F09CFF0 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Portuguese/InputStickKeyboardLayoutPtPTLinux.m in Sources */,
+				0F2002E6636B3646DBD5196D /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Portuguese/InputStickKeyboardLayoutPtPTMac.m in Sources */,
+				0D141496E0FAD94DB1E7515E /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Russian/InputStickKeyboardLayoutRuRU.m in Sources */,
+				A94621AB11BD5F1BBCB47A9A /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Russian/InputStickKeyboardLayoutRuRULinux.m in Sources */,
+				FA164F139FF7E8A4CE5879A1 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Russian/InputStickKeyboardLayoutRuRUMac.m in Sources */,
+				B881DE72F5021250CD759176 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Slovak/InputStickKeyboardLayoutSkSK.m in Sources */,
+				5FA70EAEA164B6EE81C0F510 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Slovak/InputStickKeyboardLayoutSkSKLinux.m in Sources */,
+				D3ED2038E27BB66918EF5A26 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Slovak/InputStickKeyboardLayoutSkSKMac.m in Sources */,
+				882A713D86EFE3086AA0C8D2 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Slovak/InputStickKeyboardLayoutSkSKQwerty.m in Sources */,
+				21993F566A929F4001A2A61A /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Slovak/InputStickKeyboardLayoutSkSKQwertyLinux.m in Sources */,
+				97FC1BBB3B2A52ED9E574CC6 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Slovak/InputStickKeyboardLayoutSkSKQwertyMac.m in Sources */,
+				4C8E4EC173EEA8EE13094C04 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Spanish/InputStickKeyboardLayoutEsES.m in Sources */,
+				226A354AA407A011C59DCE4C /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Spanish/InputStickKeyboardLayoutEsESLinux.m in Sources */,
+				449ADC6DDBD88C6EAB2433EB /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Spanish/InputStickKeyboardLayoutEsESMac.m in Sources */,
+				72212BB04335672370A88863 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Swedish/InputStickKeyboardLayoutSvSE.m in Sources */,
+				8D7B7F783B31E13375DCC6F6 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Swedish/InputStickKeyboardLayoutSvSELinux.m in Sources */,
+				1483BA3A0254355B1B2B4651 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Swedish/InputStickKeyboardLayoutSvSEMac.m in Sources */,
+				E4CCC956D4D63627EE7A8E49 /* Vendor/InputStickCore/HID/Keyboard/Keyboard Layouts/Vietnamese/InputStickKeyboardLayoutVnVN.m in Sources */,
+				28CC1B689A05D8D10458622B /* Vendor/InputStickCore/InputStickManager.m in Sources */,
+				A877AF1BBC7FBCB6FEA81812 /* Vendor/InputStickCore/Notifications/NSNotificationCenter+InputStickConnection.m in Sources */,
+				1841299F0675DA4C890FACB8 /* Vendor/InputStickCore/Notifications/NSNotificationCenter+InputStickPacket.m in Sources */,
+				6D64D367CED09D10DE23FA62 /* Vendor/InputStickCore/Notifications/NSNotificationCenter+InputStickPeripheralScan.m in Sources */,
+				E232B794719855A3484420B3 /* Vendor/InputStickCore/Notifications/NSNotificationCenter+InputStickStatusUpdate.m in Sources */,
+				6470C3E46B784176DD7BB831 /* Vendor/InputStickCore/Security/InputStickEncryptionManager.m in Sources */,
+				1B2682D3C2A3C358E3324EF2 /* Vendor/InputStickCore/Utils/InputStickConst.m in Sources */,
+				EED05717AD76CA74F3CF6211 /* Vendor/InputStickCore/Utils/InputStickDataUtils.m in Sources */,
+				33B5841EE7A3925EF17E4A75 /* Vendor/InputStickCore/Utils/InputStickError.m in Sources */,
+				7C440E5D0B094342731CCA4D /* Vendor/InputStickCore/Utils/InputStickLog.m in Sources */,
+				91254B4D24B7EA7149F3C186 /* Vendor/InputStickCore/Utils/InputStickPreferences.m in Sources */,
+				3B209AA6C975CE4DABE7988E /* Vendor/InputStickCore/Utils/InputStickPreferencesHelper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		369E70E1EE7A07C74E211771 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GENERATE_INFOPLIST_FILE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/Bridge",
+					"$(SRCROOT)/Vendor/InputStickCore",
+					"$(SRCROOT)/Vendor/InputStickCore/Connection",
+					"$(SRCROOT)/Vendor/InputStickCore/Connection/Packet",
+					"$(SRCROOT)/Vendor/InputStickCore/Database",
+					"$(SRCROOT)/Vendor/InputStickCore/Firmware",
+					Manager,
+					"$(SRCROOT)/Vendor/InputStickCore/HID",
+					"$(SRCROOT)/Vendor/InputStickCore/HID/HID",
+					Handlers,
+					"$(SRCROOT)/Vendor/InputStickCore/HID/HID",
+					Handlers/Consumer,
+					Handler,
+					"$(SRCROOT)/Vendor/InputStickCore/HID/HID",
+					Handlers/Gamepad,
+					Handler,
+					"$(SRCROOT)/Vendor/InputStickCore/HID/HID",
+					Handlers/Keyboard,
+					Handler,
+					"$(SRCROOT)/Vendor/InputStickCore/HID/HID",
+					Handlers/Mouse,
+					Handler,
+					"$(SRCROOT)/Vendor/InputStickCore/HID/HID",
+					Handlers/TouchScreen,
+					Handler,
+					"$(SRCROOT)/Vendor/InputStickCore/HID/Keyboard",
+					"$(SRCROOT)/Vendor/InputStickCore/HID/Keyboard/Keyboard",
+					Layouts,
+					"$(SRCROOT)/Vendor/InputStickCore/HID/Keyboard/Keyboard",
+					Layouts/Croatian,
+					"$(SRCROOT)/Vendor/InputStickCore/HID/Keyboard/Keyboard",
+					Layouts/Czech,
+					"$(SRCROOT)/Vendor/InputStickCore/HID/Keyboard/Keyboard",
+					Layouts/Danish,
+					"$(SRCROOT)/Vendor/InputStickCore/HID/Keyboard/Keyboard",
+					Layouts/Dutch,
+					"$(SRCROOT)/Vendor/InputStickCore/HID/Keyboard/Keyboard",
+					Layouts/English,
+					"$(SRCROOT)/Vendor/InputStickCore/HID/Keyboard/Keyboard",
+					Layouts/Finnish,
+					"$(SRCROOT)/Vendor/InputStickCore/HID/Keyboard/Keyboard",
+					Layouts/French,
+					"$(SRCROOT)/Vendor/InputStickCore/HID/Keyboard/Keyboard",
+					Layouts/German,
+					"$(SRCROOT)/Vendor/InputStickCore/HID/Keyboard/Keyboard",
+					Layouts/Greek,
+					"$(SRCROOT)/Vendor/InputStickCore/HID/Keyboard/Keyboard",
+					Layouts/Hebrew,
+					"$(SRCROOT)/Vendor/InputStickCore/HID/Keyboard/Keyboard",
+					Layouts/Hungarian,
+					"$(SRCROOT)/Vendor/InputStickCore/HID/Keyboard/Keyboard",
+					Layouts/Italian,
+					"$(SRCROOT)/Vendor/InputStickCore/HID/Keyboard/Keyboard",
+					Layouts/Japanese,
+					"$(SRCROOT)/Vendor/InputStickCore/HID/Keyboard/Keyboard",
+					Layouts/Norwegian,
+					"$(SRCROOT)/Vendor/InputStickCore/HID/Keyboard/Keyboard",
+					Layouts/Polish,
+					"$(SRCROOT)/Vendor/InputStickCore/HID/Keyboard/Keyboard",
+					Layouts/Portuguese,
+					"$(SRCROOT)/Vendor/InputStickCore/HID/Keyboard/Keyboard",
+					Layouts/Russian,
+					"$(SRCROOT)/Vendor/InputStickCore/HID/Keyboard/Keyboard",
+					Layouts/Slovak,
+					"$(SRCROOT)/Vendor/InputStickCore/HID/Keyboard/Keyboard",
+					Layouts/Spanish,
+					"$(SRCROOT)/Vendor/InputStickCore/HID/Keyboard/Keyboard",
+					Layouts/Swedish,
+					"$(SRCROOT)/Vendor/InputStickCore/HID/Keyboard/Keyboard",
+					Layouts/Vietnamese,
+					"$(SRCROOT)/Vendor/InputStickCore/Notifications",
+					"$(SRCROOT)/Vendor/InputStickCore/Security",
+					"$(SRCROOT)/Vendor/InputStickCore/Utils",
+				);
+				INFOPLIST_FILE = App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = local.InputStickKVM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridge/InputStickKVM-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		502D350B1D76FA1259FFDE36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GENERATE_INFOPLIST_FILE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/Bridge",
+					"$(SRCROOT)/Vendor/InputStickCore",
+					"$(SRCROOT)/Vendor/InputStickCore/Connection",
+					"$(SRCROOT)/Vendor/InputStickCore/Connection/Packet",
+					"$(SRCROOT)/Vendor/InputStickCore/Database",
+					"$(SRCROOT)/Vendor/InputStickCore/Firmware",
+					Manager,
+					"$(SRCROOT)/Vendor/InputStickCore/HID",
+					"$(SRCROOT)/Vendor/InputStickCore/HID/HID",
+					Handlers,
+					"$(SRCROOT)/Vendor/InputStickCore/HID/HID",
+					Handlers/Consumer,
+					Handler,
+					"$(SRCROOT)/Vendor/InputStickCore/HID/HID",
+					Handlers/Gamepad,
+					Handler,
+					"$(SRCROOT)/Vendor/InputStickCore/HID/HID",
+					Handlers/Keyboard,
+					Handler,
+					"$(SRCROOT)/Vendor/InputStickCore/HID/HID",
+					Handlers/Mouse,
+					Handler,
+					"$(SRCROOT)/Vendor/InputStickCore/HID/HID",
+					Handlers/TouchScreen,
+					Handler,
+					"$(SRCROOT)/Vendor/InputStickCore/HID/Keyboard",
+					"$(SRCROOT)/Vendor/InputStickCore/HID/Keyboard/Keyboard",
+					Layouts,
+					"$(SRCROOT)/Vendor/InputStickCore/HID/Keyboard/Keyboard",
+					Layouts/Croatian,
+					"$(SRCROOT)/Vendor/InputStickCore/HID/Keyboard/Keyboard",
+					Layouts/Czech,
+					"$(SRCROOT)/Vendor/InputStickCore/HID/Keyboard/Keyboard",
+					Layouts/Danish,
+					"$(SRCROOT)/Vendor/InputStickCore/HID/Keyboard/Keyboard",
+					Layouts/Dutch,
+					"$(SRCROOT)/Vendor/InputStickCore/HID/Keyboard/Keyboard",
+					Layouts/English,
+					"$(SRCROOT)/Vendor/InputStickCore/HID/Keyboard/Keyboard",
+					Layouts/Finnish,
+					"$(SRCROOT)/Vendor/InputStickCore/HID/Keyboard/Keyboard",
+					Layouts/French,
+					"$(SRCROOT)/Vendor/InputStickCore/HID/Keyboard/Keyboard",
+					Layouts/German,
+					"$(SRCROOT)/Vendor/InputStickCore/HID/Keyboard/Keyboard",
+					Layouts/Greek,
+					"$(SRCROOT)/Vendor/InputStickCore/HID/Keyboard/Keyboard",
+					Layouts/Hebrew,
+					"$(SRCROOT)/Vendor/InputStickCore/HID/Keyboard/Keyboard",
+					Layouts/Hungarian,
+					"$(SRCROOT)/Vendor/InputStickCore/HID/Keyboard/Keyboard",
+					Layouts/Italian,
+					"$(SRCROOT)/Vendor/InputStickCore/HID/Keyboard/Keyboard",
+					Layouts/Japanese,
+					"$(SRCROOT)/Vendor/InputStickCore/HID/Keyboard/Keyboard",
+					Layouts/Norwegian,
+					"$(SRCROOT)/Vendor/InputStickCore/HID/Keyboard/Keyboard",
+					Layouts/Polish,
+					"$(SRCROOT)/Vendor/InputStickCore/HID/Keyboard/Keyboard",
+					Layouts/Portuguese,
+					"$(SRCROOT)/Vendor/InputStickCore/HID/Keyboard/Keyboard",
+					Layouts/Russian,
+					"$(SRCROOT)/Vendor/InputStickCore/HID/Keyboard/Keyboard",
+					Layouts/Slovak,
+					"$(SRCROOT)/Vendor/InputStickCore/HID/Keyboard/Keyboard",
+					Layouts/Spanish,
+					"$(SRCROOT)/Vendor/InputStickCore/HID/Keyboard/Keyboard",
+					Layouts/Swedish,
+					"$(SRCROOT)/Vendor/InputStickCore/HID/Keyboard/Keyboard",
+					Layouts/Vietnamese,
+					"$(SRCROOT)/Vendor/InputStickCore/Notifications",
+					"$(SRCROOT)/Vendor/InputStickCore/Security",
+					"$(SRCROOT)/Vendor/InputStickCore/Utils",
+				);
+				INFOPLIST_FILE = App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = local.InputStickKVM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridge/InputStickKVM-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		89E1FD6268CC0F221A2BE178 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		E6DE6C99132752C914FEF632 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		862894B703A6DEDF96A9DD6C /* Build configuration list for PBXProject "InputStickKVM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89E1FD6268CC0F221A2BE178 /* Debug */,
+				E6DE6C99132752C914FEF632 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E30856D4D988D9571DE7D610 /* Build configuration list for PBXNativeTarget "InputStickKVM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				369E70E1EE7A07C74E211771 /* Debug */,
+				502D350B1D76FA1259FFDE36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 98F54143AB4E86B28C3AFEE0 /* Project object */;
+}

@@ -1,0 +1,5 @@
+Source: https://github.com/inputstick/InputStickAPI-iOS
+Commit: ea487920c271368ac0f29c31b306f2905da18bec
+Vendored: 2026-11-23
+Scope: InputStickAPI/Core only, unmodified. iOS UI excluded.
+License: MIT (see LICENSE). Encryption retained.
