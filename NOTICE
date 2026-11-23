@@ -1,0 +1,14 @@
+InputStick KVM
+
+To the extent the project author holds copyright and related rights, the
+original app code, artwork, and documentation outside Vendor/ are dedicated
+to the public domain under CC0 1.0 Universal. See LICENSE for the full terms.
+
+Third-party material is excluded from this dedication.
+
+Vendor/ contains InputStickAPI-iOS materials by Jakub Zawadzki / InputStick.
+Those materials retain their existing copyright notices and license terms.
+The SDK is MIT-licensed; see Vendor/LICENSE and Vendor/PROVENANCE.txt.
+
+This dedication does not grant rights to third-party trademarks or imply
+endorsement by InputStick or OpenAI.
