@@ -47,3 +47,11 @@ These confirm the first Bluetooth/USB input path with the user's hardware; they 
 ## Release build without timed capture expiry
 
 Removed the 60-second capture deadline and countdown. Escape, Right Command pause, focus/sleep loss, connection-loss release, and macro cancellation remain. All 70 checks pass; Release build succeeded. Earlier references to a 60-second timer describe older builds.
+
+## Version 0.2.0 — stronger capture
+
+- Added a session event tap for keyboard interception and temporary macOS presentation settings while forwarding. Right Command pause and every release path restore the previous presentation settings. System Force Quit remains available.
+- Added visible Accessibility permission status, an Enable keyboard capture button, and an explicit Start control button. Missing permission prevents capture. Event-tap failure releases capture.
+- Universal Release build succeeded for arm64 and x86_64. All 70 pure state checks passed. These checks do not exercise macOS event taps or trackpad gestures.
+- The first test confirmation was withdrawn when Accessibility permission was missing. After setup was corrected, the user explicitly confirmed the final build worked for blocked swipes and Escape release. The running final UI independently showed “Keyboard capture permission enabled” and “Forwarding inside this area.”
+- Exhaustive shortcut, gesture, sleep, disconnect, crash, and multi-monitor recovery remain unverified. No persistent trackpad preferences were changed.

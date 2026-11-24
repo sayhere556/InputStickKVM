@@ -1,6 +1,7 @@
 import SwiftUI
 import AppKit
 import CoreGraphics
+import ApplicationServices
 
 struct NearbyDevice: Identifiable, Equatable {
     let id: String
@@ -10,6 +11,7 @@ struct NearbyDevice: Identifiable, Equatable {
 
 final class KVMModel: ObservableObject {
     @Published private(set) var devices: [NearbyDevice] = []
+    @Published private(set) var accessibilityGranted = AXIsProcessTrusted()
     @Published private(set) var ready = false
     @Published private(set) var scanning = false
     @Published private(set) var bluetoothState = 0
@@ -40,6 +42,9 @@ final class KVMModel: ObservableObject {
     private var timer: Timer?
     private var pollingTimer: Timer?
     private var cursorDetached = false
+    private var savedPresentation: NSApplication.PresentationOptions?
+    private var keyboardTap: CFMachPort?
+    private var keyboardTapSource: CFRunLoopSource?
     private var automation = ConnectionAutomation()
     private var macro = TextMacroQueue()
     private var sleeping = false
@@ -82,6 +87,7 @@ final class KVMModel: ObservableObject {
         let tick = Timer(timeInterval: 1.0 / 60, repeats: true) { [weak self] _ in self?.tick() }
         RunLoop.main.add(tick, forMode: .common); timer = tick
         let poll = Timer(timeInterval: 0.5, repeats: true) { [weak self] _ in
+            self?.accessibilityGranted = AXIsProcessTrusted()
             self?.refresh(); self?.runAutomatic()
         }
         RunLoop.main.add(poll, forMode: .common); pollingTimer = poll
@@ -98,6 +104,9 @@ final class KVMModel: ObservableObject {
         observers.forEach(NotificationCenter.default.removeObserver)
         workspaceObservers.forEach(NSWorkspace.shared.notificationCenter.removeObserver)
         if cursorDetached { CGAssociateMouseAndMouseCursorPosition(1) }
+        if let savedPresentation { NSApp.presentationOptions = savedPresentation }
+        if let keyboardTap { CFMachPortInvalidate(keyboardTap) }
+        if let keyboardTapSource { CFRunLoopRemoveSource(CFRunLoopGetMain(), keyboardTapSource, .commonModes) }
     }
 
     var status: String {
@@ -212,10 +221,12 @@ final class KVMModel: ObservableObject {
     }
     func begin() {
         guard ready, !macroRunning, NSApp.isActive, pad?.window?.isKeyWindow == true else { return }
+        guard installKeyboardTap() else { return }
         session.begin(ready: ready)
-        guard session.active else { return }
+        guard session.active else { removeKeyboardTap(); return }
         neutralize()
-        log("Control started. Escape releases immediately. Hold Right Command for mouse lock.")
+        reconcileCursor()
+        if session.active { log("Control started. Escape releases immediately. Hold Right Command for mouse lock.") }
     }
     func toggleLock() {
         session.toggleLock(ready: ready)
@@ -225,6 +236,7 @@ final class KVMModel: ObservableObject {
         let wasActive = session.active || cursorDetached || macroRunning
         session.release()
         reconcileCursor(); neutralize()
+        removeKeyboardTap()
         if wasActive, let reason { log(reason) }
     }
     private func neutralize() {
@@ -232,13 +244,78 @@ final class KVMModel: ObservableObject {
         keyboard.reset(); buttons = 0; mouse = MouseAccumulator()
         transport.releaseInputs()
     }
+    func requestKeyboardAccess() {
+        accessibilityGranted = AXIsProcessTrusted()
+        guard !accessibilityGranted else { return }
+        let options = [kAXTrustedCheckOptionPrompt.takeUnretainedValue() as String: true] as CFDictionary
+        _ = AXIsProcessTrustedWithOptions(options)
+        if let url = URL(string: "x-apple.systempreferences:com.apple.preference.security?Privacy_Accessibility") {
+            NSWorkspace.shared.open(url)
+        }
+        log("Turn on InputStick KVM in Accessibility. If it is missing, use + to add this app, then return here. If access still shows as needed, quit and reopen the app.")
+    }
+    private func installKeyboardTap() -> Bool {
+        if keyboardTap != nil { return true }
+        guard AXIsProcessTrusted() else {
+            requestKeyboardAccess()
+            return false
+        }
+        let mask = [CGEventType.keyDown, .keyUp, .flagsChanged].reduce(CGEventMask(0)) { $0 | (1 << $1.rawValue) }
+        let callback: CGEventTapCallBack = { _, type, event, context in
+            guard let context else { return Unmanaged.passUnretained(event) }
+            let model = Unmanaged<KVMModel>.fromOpaque(context).takeUnretainedValue()
+            if type == .tapDisabledByTimeout || type == .tapDisabledByUserInput {
+                // Fail open rather than silently continuing with incomplete capture.
+                DispatchQueue.main.async { [weak model] in model?.release("Control released: macOS stopped keyboard interception.") }
+                return Unmanaged.passUnretained(event)
+            }
+            guard model.session.active, NSApp.isActive, let keyEvent = NSEvent(cgEvent: event) else {
+                return Unmanaged.passUnretained(event)
+            }
+            return model.handle(keyEvent) == nil ? nil : Unmanaged.passUnretained(event)
+        }
+        guard let tap = CGEvent.tapCreate(tap: .cgSessionEventTap, place: .headInsertEventTap,
+            options: .defaultTap, eventsOfInterest: mask, callback: callback,
+            userInfo: Unmanaged.passUnretained(self).toOpaque()) else {
+            log("Keyboard interception is unavailable. Check Accessibility permission and restart the app. Control was not captured.")
+            return false
+        }
+        guard let source = CFMachPortCreateRunLoopSource(kCFAllocatorDefault, tap, 0) else {
+            CFMachPortInvalidate(tap); return false
+        }
+        keyboardTap = tap; keyboardTapSource = source
+        CFRunLoopAddSource(CFRunLoopGetMain(), source, .commonModes)
+        CGEvent.tapEnable(tap: tap, enable: true)
+        return true
+    }
+    private func removeKeyboardTap() {
+        if let keyboardTap { CGEvent.tapEnable(tap: keyboardTap, enable: false); CFMachPortInvalidate(keyboardTap) }
+        if let keyboardTapSource { CFRunLoopRemoveSource(CFRunLoopGetMain(), keyboardTapSource, .commonModes) }
+        keyboardTap = nil; keyboardTapSource = nil
+    }
+    private func reconcilePresentation() {
+        let protect = session.forwarding && ready && NSApp.isActive && pad?.window?.isKeyWindow == true
+        if protect, savedPresentation == nil {
+            let previous = NSApp.presentationOptions
+            savedPresentation = previous
+            var options = previous
+            options.subtract([.autoHideDock, .autoHideMenuBar])
+            options.formUnion([.hideDock, .hideMenuBar, .disableProcessSwitching, .disableHideApplication])
+            // Retain system Force Quit as a recovery route. No persistent system settings change.
+            NSApp.presentationOptions = options
+        } else if !protect, let previous = savedPresentation {
+            savedPresentation = nil
+            NSApp.presentationOptions = previous
+        }
+    }
     private func reconcileCursor() {
+        reconcilePresentation()
         let shouldDetach = session.cursorLocked && ready && NSApp.isActive && pad?.window?.isKeyWindow == true
         guard shouldDetach != cursorDetached else { return }
         let result = CGAssociateMouseAndMouseCursorPosition(shouldDetach ? 0 : 1)
         if result == .success { cursorDetached = shouldDetach }
         else if shouldDetach {
-            session.release(); neutralize()
+            session.release(); reconcilePresentation(); removeKeyboardTap(); neutralize()
             log("macOS refused mouse lock. Control was released.")
         } else {
             // Retry recoupling on every tick until macOS confirms success.

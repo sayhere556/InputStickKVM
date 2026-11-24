@@ -6,11 +6,12 @@ Use your Mac’s keyboard and trackpad to control another computer through an In
 
 ## Get started
 
-Requires **macOS 14+**, Xcode to build, and an InputStick receiver.
+Requires **macOS 14+** and an InputStick receiver. Supports Apple Silicon and Intel Macs.
 
-1. Open `InputStickKVM.xcodeproj` in Xcode, select **InputStickKVM → My Mac**, and press **Run**.
-2. Allow Bluetooth access. Select your receiver and connect the first time; the app can discover devices and reconnect automatically afterward.
-3. Click the control area to start forwarding your keyboard and trackpad.
+1. Download the app from [Releases](https://github.com/sayhere556/InputStickKVM/releases), unzip it, and move it to Applications. Or build `InputStickKVM.xcodeproj` in Xcode with **InputStickKVM → My Mac**.
+2. Allow Bluetooth access. Select your receiver and connect the first time; discovery and reconnection can run automatically afterward.
+3. Click **Enable keyboard capture**, then turn on InputStick KVM in **System Settings → Privacy & Security → Accessibility**. If missing, use **+** to add the app. Rebuilds may require granting access again or restarting the app.
+4. Click **Start control** or the control area to forward your keyboard and trackpad.
 
 ## Controls
 
@@ -20,11 +21,13 @@ Requires **macOS 14+**, Xcode to build, and an InputStick receiver.
 - **Macros:** type `hello`, move the pointer, or **Type clipboard**. Clipboard text is read only when clicked. **Stop** or **Escape** cancels typing.
 - **Disconnect:** pause automatic reconnection; click **Resume** when you want it back.
 
-There is no timed auto-release. Switching apps, closing the window, or losing the connection releases capture. Reconnecting never automatically captures input or replays clipboard text.
+While forwarding, keyboard interception and macOS presentation mode keep app-switching shortcuts and trackpad workspace swipes from pulling you out of capture. Hold Right Command to temporarily restore Mac controls.
+
+There is no timed auto-release. Leaving the control area with the mouse unlocked, losing focus, closing the window, sleeping, or losing the connection releases capture. Reconnecting never automatically captures input or replays clipboard text.
 
 ## Current limits
 
-Clipboard typing supports US-layout text, tabs, and line breaks; Unicode/emoji typing and password entry for protected receivers are not implemented. macOS system shortcuts may still act locally. Builds are not notarized. Basic hardware tests passed, but exhaustive recovery testing is still pending—see [validation notes](VALIDATION.md).
+Clipboard typing supports US-layout text, tabs, and line breaks; Unicode/emoji typing and password entry for protected receivers are not implemented. This is a development build, signed locally and not notarized; macOS may require approving it in Privacy & Security before opening. Capture is not a system-wide kiosk or a security boundary. Basic forwarding, blocked swipes, and Escape release were user-tested, but exhaustive recovery testing is still pending—see [validation notes](VALIDATION.md).
 
 ## Public domain
 

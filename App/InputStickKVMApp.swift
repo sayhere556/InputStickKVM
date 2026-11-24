@@ -109,6 +109,17 @@ struct ContentView: View {
                     Button("Release all input") { model.release("All input released.") }
                         .keyboardShortcut(.escape, modifiers: [])
                 }
+                HStack {
+                    Label(model.accessibilityGranted ? "Keyboard capture permission enabled" : "Accessibility permission needed for keyboard capture",
+                          systemImage: model.accessibilityGranted ? "checkmark.shield" : "hand.raised")
+                        .font(.caption)
+                    Spacer()
+                    if !model.accessibilityGranted {
+                        Button("Enable keyboard capture") { model.requestKeyboardAccess() }
+                    } else if !model.session.active {
+                        Button("Start control") { model.begin() }.disabled(!model.ready || model.macroRunning)
+                    }
+                }
                 ZStack {
                     RoundedRectangle(cornerRadius: 18).fill(accent.opacity(model.session.active ? 0.12 : 0.05))
                     RoundedRectangle(cornerRadius: 18).strokeBorder(accent.opacity(0.4), style: StrokeStyle(lineWidth: 1, dash: model.session.active ? [] : [7, 5]))
@@ -138,7 +149,7 @@ struct ContentView: View {
                         }
                     }
                 }.frame(minHeight: 235)
-                Text("Window-based prototype · Leaving the area, switching apps, or pressing Escape releases control. macOS system shortcuts may still act locally.")
+                Text("Capture blocks app switching · Right ⌘ temporarily restores Mac controls · Escape releases all input.")
                     .font(.caption).foregroundStyle(.secondary)
             }
             HStack(alignment: .top, spacing: 8) {
